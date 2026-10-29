@@ -1,0 +1,1981 @@
+[
+  {
+    "expected": {
+      "alternatives": [
+        [
+          {
+            "label": "x",
+            "marginal": 0.968605294017151
+          },
+          {
+            "label": "·",
+            "marginal": 0.03139470598284886
+          }
+        ]
+      ],
+      "marginals": [
+        {
+          "x": 0.968605294017151,
+          "·": 0.03139470598284886
+        }
+      ],
+      "revisions": [],
+      "substitution": {
+        "index": 0,
+        "label": "x",
+        "marginal": 0.968605294017151
+      }
+    },
+    "name": "single-ambiguous",
+    "symbols": [
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "·": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "expected": {
+      "alternatives": [
+        [],
+        [
+          {
+            "label": "x",
+            "marginal": 0.9779750382102441
+          }
+        ],
+        []
+      ],
+      "marginals": [
+        {
+          "2": 1.0
+        },
+        {
+          "x": 0.9779750382102441,
+          "·": 0.022024961789755545
+        },
+        {
+          "+": 1.0
+        }
+      ],
+      "revisions": [
+        {
+          "index": 1,
+          "label": "x",
+          "marginal": 0.9779750382102441
+        }
+      ],
+      "substitution": {
+        "index": 2,
+        "label": "+",
+        "marginal": 1.0
+      }
+    },
+    "name": "x-after-plus",
+    "symbols": [
+      {
+        "displayedLabel": "2",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "2": 1
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "·": 0.5
+        }
+      },
+      {
+        "displayedLabel": "+",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "+": 1
+        }
+      }
+    ]
+  },
+  {
+    "expected": {
+      "alternatives": [
+        [],
+        [
+          {
+            "label": "l",
+            "marginal": 0.8225407942887702
+          },
+          {
+            "label": "|",
+            "marginal": 0.04078444041267244
+          }
+        ],
+        [],
+        []
+      ],
+      "marginals": [
+        {
+          "1": 1.0
+        },
+        {
+          "1": 0.1366747652985569,
+          "l": 0.8225407942887702,
+          "|": 0.04078444041267244
+        },
+        {
+          "o": 1.0
+        },
+        {
+          "g": 1.0
+        }
+      ],
+      "revisions": [],
+      "substitution": {
+        "index": 3,
+        "label": "g",
+        "marginal": 1.0
+      }
+    },
+    "name": "bar-log",
+    "symbols": [
+      {
+        "displayedLabel": "1",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "1": 1
+        }
+      },
+      {
+        "displayedLabel": "1",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "1": 0.3333333333333333,
+          "l": 0.3333333333333333,
+          "|": 0.3333333333333333
+        }
+      },
+      {
+        "displayedLabel": "o",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "o": 1
+        }
+      },
+      {
+        "displayedLabel": "g",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "g": 1
+        }
+      }
+    ]
+  },
+  {
+    "expected": {
+      "alternatives": [
+        [],
+        [
+          {
+            "label": "o",
+            "marginal": 0.9938273207212664
+          }
+        ],
+        []
+      ],
+      "marginals": [
+        {
+          "c": 1.0
+        },
+        {
+          "0": 0.0061516609156625855,
+          "o": 0.9938273207212664,
+          "°": 2.1018363071001734e-05
+        },
+        {
+          "s": 1.0
+        }
+      ],
+      "revisions": [
+        {
+          "index": 1,
+          "label": "o",
+          "marginal": 0.9938273207212664
+        }
+      ],
+      "substitution": {
+        "index": 2,
+        "label": "s",
+        "marginal": 1.0
+      }
+    },
+    "name": "ring-cos",
+    "symbols": [
+      {
+        "displayedLabel": "c",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "c": 1
+        }
+      },
+      {
+        "displayedLabel": "0",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "0": 0.45,
+          "o": 0.45,
+          "°": 0.1
+        }
+      },
+      {
+        "displayedLabel": "s",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "s": 1
+        }
+      }
+    ]
+  },
+  {
+    "expected": {
+      "alternatives": [
+        [],
+        [
+          {
+            "label": "0",
+            "marginal": 0.9838777214995196
+          }
+        ],
+        [
+          {
+            "label": "0",
+            "marginal": 0.7952670954381472
+          },
+          {
+            "label": "°",
+            "marginal": 0.11570097281632628
+          },
+          {
+            "label": "o",
+            "marginal": 0.08903193174552634
+          }
+        ]
+      ],
+      "marginals": [
+        {
+          "4": 1.0
+        },
+        {
+          "0": 0.9838777214995196,
+          "o": 0.007967815146465251,
+          "°": 0.008154463354015165
+        },
+        {
+          "0": 0.7952670954381472,
+          "o": 0.08903193174552634,
+          "°": 0.11570097281632628
+        }
+      ],
+      "revisions": [
+        {
+          "index": 1,
+          "label": "0",
+          "marginal": 0.9838777214995196
+        }
+      ],
+      "substitution": null
+    },
+    "name": "ring-zero-zero",
+    "symbols": [
+      {
+        "displayedLabel": "4",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "4": 1
+        }
+      },
+      {
+        "displayedLabel": "o",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "0": 0.45,
+          "o": 0.45,
+          "°": 0.1
+        }
+      },
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "0": 0.45,
+          "o": 0.45,
+          "°": 0.1
+        }
+      }
+    ]
+  },
+  {
+    "expected": {
+      "alternatives": [
+        [
+          {
+            "label": "3",
+            "marginal": 0.5345926799914172
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.8866175034278693
+          }
+        ],
+        [
+          {
+            "label": "−",
+            "marginal": 0.17497380467854345
+          }
+        ],
+        [
+          {
+            "label": "7",
+            "marginal": 0.07101123477019708
+          }
+        ],
+        [
+          {
+            "label": "/",
+            "marginal": 0.9805478846141414
+          }
+        ],
+        [
+          {
+            "label": "4",
+            "marginal": 0.761065173683579
+          },
+          {
+            "label": "9",
+            "marginal": 0.134831784981884
+          },
+          {
+            "label": "a",
+            "marginal": 0.10410304133453778
+          }
+        ]
+      ],
+      "marginals": [
+        {
+          "2": 0.4654073200085805,
+          "3": 0.5345926799914172
+        },
+        {
+          "x": 0.8866175034278693,
+          "y": 0.11338249657213015
+        },
+        {
+          "+": 0.8250261953214559,
+          "−": 0.17497380467854345
+        },
+        {
+          "1": 0.9164184006396842,
+          "7": 0.07101123477019708,
+          "l": 0.01257036459011914
+        },
+        {
+          "/": 0.9805478846141414,
+          "÷": 0.019452115385857144
+        },
+        {
+          "4": 0.761065173683579,
+          "9": 0.134831784981884,
+          "a": 0.10410304133453778
+        }
+      ],
+      "revisions": [
+        {
+          "index": 4,
+          "label": "/",
+          "marginal": 0.9805478846141414
+        }
+      ],
+      "substitution": null
+    },
+    "name": "mixed-six",
+    "symbols": [
+      {
+        "displayedLabel": "2",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "2": 0.6,
+          "3": 0.4
+        }
+      },
+      {
+        "displayedLabel": "y",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.52,
+          "y": 0.48
+        }
+      },
+      {
+        "displayedLabel": "+",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "+": 0.8,
+          "−": 0.2
+        }
+      },
+      {
+        "displayedLabel": "1",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "1": 0.4,
+          "7": 0.35,
+          "l": 0.25
+        }
+      },
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "/": 0.7,
+          "÷": 0.3
+        }
+      },
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "4": 0.5,
+          "9": 0.3,
+          "a": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "expected": {
+      "alternatives": [
+        [],
+        [
+          {
+            "label": "·",
+            "marginal": 0.6150568781864978
+          },
+          {
+            "label": "x",
+            "marginal": 0.3268751499313611
+          },
+          {
+            "label": "y",
+            "marginal": 0.0580679718821419
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.18967078267311924
+          },
+          {
+            "label": "y",
+            "marginal": 0.16038832142578893
+          }
+        ],
+        [
+          {
+            "label": "·",
+            "marginal": 0.6836851024310033
+          },
+          {
+            "label": "x",
+            "marginal": 0.21772891744208137
+          },
+          {
+            "label": "y",
+            "marginal": 0.09858598012691595
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.2691339683109282
+          },
+          {
+            "label": "y",
+            "marginal": 0.19850169266503367
+          }
+        ],
+        [
+          {
+            "label": "·",
+            "marginal": 0.4988257864907464
+          },
+          {
+            "label": "x",
+            "marginal": 0.3026043560644844
+          },
+          {
+            "label": "y",
+            "marginal": 0.19856985744477212
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.30763116298028775
+          },
+          {
+            "label": "y",
+            "marginal": 0.20628754303262617
+          }
+        ],
+        [
+          {
+            "label": "·",
+            "marginal": 0.49347996364028796
+          },
+          {
+            "label": "x",
+            "marginal": 0.3026423678768895
+          },
+          {
+            "label": "y",
+            "marginal": 0.20387766848282407
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.30220674560045047
+          },
+          {
+            "label": "y",
+            "marginal": 0.19774679073863086
+          }
+        ],
+        [
+          {
+            "label": "·",
+            "marginal": 0.5416618147522324
+          },
+          {
+            "label": "x",
+            "marginal": 0.2872260460309411
+          },
+          {
+            "label": "y",
+            "marginal": 0.17111213921682783
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.32630844181428736
+          },
+          {
+            "label": "y",
+            "marginal": 0.12659702379145754
+          }
+        ],
+        [
+          {
+            "label": "·",
+            "marginal": 0.564948475032796
+          },
+          {
+            "label": "x",
+            "marginal": 0.31242651106904834
+          },
+          {
+            "label": "y",
+            "marginal": 0.12262501389815654
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.46513565631030007
+          },
+          {
+            "label": "y",
+            "marginal": 0.1648183400556812
+          }
+        ]
+      ],
+      "marginals": [
+        {
+          "2": 1.0
+        },
+        {
+          "x": 0.3268751499313611,
+          "y": 0.0580679718821419,
+          "·": 0.6150568781864978
+        },
+        {
+          "x": 0.18967078267311924,
+          "y": 0.16038832142578893,
+          "·": 0.6499408959010936
+        },
+        {
+          "x": 0.21772891744208137,
+          "y": 0.09858598012691595,
+          "·": 0.6836851024310033
+        },
+        {
+          "x": 0.2691339683109282,
+          "y": 0.19850169266503367,
+          "·": 0.5323643390240408
+        },
+        {
+          "x": 0.3026043560644844,
+          "y": 0.19856985744477212,
+          "·": 0.4988257864907464
+        },
+        {
+          "x": 0.30763116298028775,
+          "y": 0.20628754303262617,
+          "·": 0.48608129398708827
+        },
+        {
+          "x": 0.3026423678768895,
+          "y": 0.20387766848282407,
+          "·": 0.49347996364028796
+        },
+        {
+          "x": 0.30220674560045047,
+          "y": 0.19774679073863086,
+          "·": 0.5000464636609204
+        },
+        {
+          "x": 0.2872260460309411,
+          "y": 0.17111213921682783,
+          "·": 0.5416618147522324
+        },
+        {
+          "x": 0.32630844181428736,
+          "y": 0.12659702379145754,
+          "·": 0.5470945343942559
+        },
+        {
+          "x": 0.31242651106904834,
+          "y": 0.12262501389815654,
+          "·": 0.564948475032796
+        },
+        {
+          "x": 0.46513565631030007,
+          "y": 0.1648183400556812,
+          "·": 0.370046003634017
+        }
+      ],
+      "revisions": [],
+      "substitution": null
+    },
+    "name": "thirteen-token-window",
+    "symbols": [
+      {
+        "displayedLabel": "2",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "2": 1
+        }
+      },
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "y": 0.2,
+          "·": 0.3
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "y": 0.2,
+          "·": 0.3
+        }
+      },
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "y": 0.2,
+          "·": 0.3
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "y": 0.2,
+          "·": 0.3
+        }
+      },
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "y": 0.2,
+          "·": 0.3
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "y": 0.2,
+          "·": 0.3
+        }
+      },
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "y": 0.2,
+          "·": 0.3
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "y": 0.2,
+          "·": 0.3
+        }
+      },
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "y": 0.2,
+          "·": 0.3
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "y": 0.2,
+          "·": 0.3
+        }
+      },
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "y": 0.2,
+          "·": 0.3
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "y": 0.2,
+          "·": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "expected": {
+      "alternatives": [
+        [],
+        [
+          {
+            "label": "(",
+            "marginal": 1.0
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.9150982051016017
+          },
+          {
+            "label": "1",
+            "marginal": 0.08490179489839814
+          }
+        ],
+        [],
+        [],
+        [
+          {
+            "label": ")",
+            "marginal": 1.0
+          }
+        ],
+        [
+          {
+            "label": "/",
+            "marginal": 1.0
+          }
+        ],
+        []
+      ],
+      "marginals": [
+        {
+          "a": 1.0
+        },
+        {
+          "(": 1.0
+        },
+        {
+          "1": 0.08490179489839814,
+          "x": 0.9150982051016017
+        },
+        {
+          "+": 1.0
+        },
+        {
+          "1": 1.0
+        },
+        {
+          ")": 1.0
+        },
+        {
+          "/": 1.0
+        },
+        {
+          "b": 1.0
+        }
+      ],
+      "revisions": [],
+      "substitution": {
+        "index": 7,
+        "label": "b",
+        "marginal": 1.0
+      }
+    },
+    "name": "virtual-fraction",
+    "symbols": [
+      {
+        "displayedLabel": "a",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "a": 1
+        }
+      },
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": true,
+        "labelLikelihoods": {
+          "(": 1
+        }
+      },
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "1": 0.4,
+          "x": 0.6
+        }
+      },
+      {
+        "displayedLabel": "+",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "+": 1
+        }
+      },
+      {
+        "displayedLabel": "1",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "1": 1
+        }
+      },
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": true,
+        "labelLikelihoods": {
+          ")": 1
+        }
+      },
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": true,
+        "labelLikelihoods": {
+          "/": 1
+        }
+      },
+      {
+        "displayedLabel": "b",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "b": 1
+        }
+      }
+    ]
+  },
+  {
+    "expected": {
+      "alternatives": [
+        [],
+        [],
+        [
+          {
+            "label": "2",
+            "marginal": 0.6986165640390996
+          },
+          {
+            "label": "3",
+            "marginal": 0.3013834359609
+          }
+        ]
+      ],
+      "marginals": [
+        {
+          "x": 0.9999999999999991
+        },
+        {
+          "+": 1.0
+        },
+        {
+          "2": 0.6986165640390996,
+          "3": 0.3013834359609
+        }
+      ],
+      "revisions": [],
+      "substitution": null
+    },
+    "name": "pinned-correction",
+    "symbols": [
+      {
+        "displayedLabel": "x",
+        "isPinned": true,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 1,
+          "·": 0.01
+        }
+      },
+      {
+        "displayedLabel": "+",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "+": 1
+        }
+      },
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "2": 0.65,
+          "3": 0.35
+        }
+      }
+    ]
+  },
+  {
+    "expected": {
+      "alternatives": [
+        [],
+        [],
+        [
+          {
+            "label": "x",
+            "marginal": 0.7126454217559389
+          },
+          {
+            "label": "y",
+            "marginal": 0.2873545782440613
+          }
+        ]
+      ],
+      "marginals": [
+        {
+          "<unk>": 1.0
+        },
+        {
+          "2": 1.0
+        },
+        {
+          "x": 0.7126454217559389,
+          "y": 0.2873545782440613
+        }
+      ],
+      "revisions": [],
+      "substitution": null
+    },
+    "name": "pinned-ink",
+    "symbols": [
+      {
+        "displayedLabel": null,
+        "isPinned": true,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 1
+        }
+      },
+      {
+        "displayedLabel": "2",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "2": 1
+        }
+      },
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "disabledLabels": [
+      "x"
+    ],
+    "expected": {
+      "alternatives": [
+        [
+          {
+            "label": "x",
+            "marginal": 0.9776681903437624
+          },
+          {
+            "label": "y",
+            "marginal": 0.022331809656237583
+          }
+        ]
+      ],
+      "marginals": [
+        {
+          "x": 0.9776681903437624,
+          "y": 0.022331809656237583
+        }
+      ],
+      "revisions": [],
+      "substitution": null
+    },
+    "name": "disabled-winner",
+    "symbols": [
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.96,
+          "y": 0.04
+        }
+      }
+    ]
+  },
+  {
+    "expected": {
+      "alternatives": [
+        [
+          {
+            "label": "0",
+            "marginal": 0.5
+          },
+          {
+            "label": "o",
+            "marginal": 0.5
+          }
+        ]
+      ],
+      "marginals": [
+        {
+          "0": 0.5,
+          "o": 0.5
+        }
+      ],
+      "revisions": [],
+      "substitution": {
+        "index": 0,
+        "label": "0",
+        "marginal": 0.5
+      }
+    },
+    "lambda": 0.0,
+    "name": "lexical-tie",
+    "symbols": [
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "0": 0.5,
+          "o": 0.5
+        }
+      }
+    ],
+    "tauSub": 0.5
+  },
+  {
+    "expected": {
+      "alternatives": [
+        [],
+        [],
+        [],
+        [
+          {
+            "label": "x",
+            "marginal": 0.30003127033683036
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.18979912096968488
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.11771854244741378
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.18900686270577738
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.18911070156535947
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.20343176522939616
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.19823463901596017
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.19733146480107824
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.17529312963987576
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.16554191261295878
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.16600927141162922
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.39660998024608624
+          }
+        ]
+      ],
+      "marginals": [
+        {
+          "<unk>": 1.0
+        },
+        {
+          "<unk>": 1.0
+        },
+        {
+          "<unk>": 1.0
+        },
+        {
+          "x": 0.30003127033683036,
+          "·": 0.6999687296631724
+        },
+        {
+          "x": 0.18979912096968488,
+          "·": 0.810200879030321
+        },
+        {
+          "x": 0.11771854244741378,
+          "·": 0.88228145755259
+        },
+        {
+          "x": 0.18900686270577738,
+          "·": 0.8109931372942261
+        },
+        {
+          "x": 0.18911070156535947,
+          "·": 0.8108892984346415
+        },
+        {
+          "x": 0.20343176522939616,
+          "·": 0.7965682347706058
+        },
+        {
+          "x": 0.19823463901596017,
+          "·": 0.801765360984043
+        },
+        {
+          "x": 0.19733146480107824,
+          "·": 0.802668535198923
+        },
+        {
+          "x": 0.17529312963987576,
+          "·": 0.8247068703601252
+        },
+        {
+          "x": 0.16554191261295878,
+          "·": 0.834458087387043
+        },
+        {
+          "x": 0.16600927141162922,
+          "·": 0.8339907285883685
+        },
+        {
+          "x": 0.39660998024608624,
+          "·": 0.6033900197539128
+        }
+      ],
+      "revisions": [],
+      "substitution": null
+    },
+    "name": "unknown-frozen-prefix",
+    "symbols": [
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "2": 1
+        }
+      },
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "2": 1
+        }
+      },
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "2": 1
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "·": 0.5
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "·": 0.5
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "·": 0.5
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "·": 0.5
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "·": 0.5
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "·": 0.5
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "·": 0.5
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "·": 0.5
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "·": 0.5
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "·": 0.5
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "·": 0.5
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "·": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "expected": {
+      "alternatives": [
+        [
+          {
+            "label": "x",
+            "marginal": 0.9999995023569065
+          }
+        ],
+        [
+          {
+            "label": "/",
+            "marginal": 1.0
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.9236569026933477
+          }
+        ],
+        [
+          {
+            "label": "o",
+            "marginal": 0.13357683410093021
+          }
+        ],
+        []
+      ],
+      "marginals": [
+        {
+          "x": 0.9999995023569065,
+          "·": 4.976430945666238e-07
+        },
+        {
+          "/": 1.0
+        },
+        {
+          "x": 0.9236569026933477,
+          "·": 0.076343097306652
+        },
+        {
+          "0": 0.866423165899071,
+          "o": 0.13357683410093021
+        },
+        {
+          "+": 1.0
+        }
+      ],
+      "revisions": [
+        {
+          "index": 2,
+          "label": "x",
+          "marginal": 0.9236569026933477
+        }
+      ],
+      "substitution": {
+        "index": 4,
+        "label": "+",
+        "marginal": 1.0
+      }
+    },
+    "name": "commit-revisions-skip-k-minus-three",
+    "revisionIndices": [
+      2,
+      3
+    ],
+    "symbols": [
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.999,
+          "·": 0.001
+        }
+      },
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": true,
+        "labelLikelihoods": {
+          "/": 1
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "·": 0.5
+        }
+      },
+      {
+        "displayedLabel": "0",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "0": 0.5,
+          "o": 0.5
+        }
+      },
+      {
+        "displayedLabel": "+",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "+": 1
+        }
+      }
+    ]
+  },
+  {
+    "expected": {
+      "alternatives": [
+        [],
+        [
+          {
+            "label": "x",
+            "marginal": 0.9779750382102441
+          }
+        ],
+        [],
+        [
+          {
+            "label": "/",
+            "marginal": 1.0
+          }
+        ],
+        [],
+        []
+      ],
+      "marginals": [
+        {
+          "2": 1.0
+        },
+        {
+          "x": 0.9779750382102441,
+          "·": 0.022024961789755545
+        },
+        {
+          "+": 1.0
+        },
+        {
+          "/": 1.0
+        },
+        {
+          "3": 1.0
+        },
+        {
+          "4": 1.0
+        }
+      ],
+      "revisions": [
+        {
+          "index": 1,
+          "label": "x",
+          "marginal": 0.9779750382102441
+        }
+      ],
+      "substitution": {
+        "index": 2,
+        "label": "+",
+        "marginal": 1.0
+      }
+    },
+    "name": "interior-newest-window",
+    "newestIndex": 2,
+    "revisionIndices": [
+      1
+    ],
+    "symbols": [
+      {
+        "displayedLabel": "2",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "2": 1
+        }
+      },
+      {
+        "displayedLabel": "·",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "x": 0.5,
+          "·": 0.5
+        }
+      },
+      {
+        "displayedLabel": "+",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "+": 1
+        }
+      },
+      {
+        "displayedLabel": null,
+        "isPinned": false,
+        "isVirtual": true,
+        "labelLikelihoods": {
+          "/": 1
+        }
+      },
+      {
+        "displayedLabel": "3",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "3": 1
+        }
+      },
+      {
+        "displayedLabel": "4",
+        "isPinned": false,
+        "isVirtual": false,
+        "labelLikelihoods": {
+          "4": 1
+        }
+      }
+    ]
+  },
+  {
+    "name": "fill_threshold_blocks_ink_but_allows_glyph_correction",
+    "lambda": 0,
+    "tauSub": 0.8,
+    "tauRev": 0.9,
+    "tauFill": 0.97,
+    "symbols": [
+      {
+        "labelLikelihoods": {
+          "x": 0.95,
+          "z": 0.05
+        },
+        "displayedLabel": null,
+        "isVirtual": false,
+        "isPinned": false
+      },
+      {
+        "labelLikelihoods": {
+          "x": 0.95,
+          "z": 0.05
+        },
+        "displayedLabel": "z",
+        "isVirtual": false,
+        "isPinned": false
+      },
+      {
+        "labelLikelihoods": {
+          "+": 1
+        },
+        "displayedLabel": null,
+        "isVirtual": false,
+        "isPinned": false
+      }
+    ],
+    "expected": {
+      "marginals": [
+        {
+          "x": 0.95,
+          "z": 0.05000000000000001
+        },
+        {
+          "x": 0.95,
+          "z": 0.05000000000000001
+        },
+        {
+          "+": 1.0
+        }
+      ],
+      "substitution": {
+        "index": 2,
+        "label": "+",
+        "marginal": 1.0
+      },
+      "revisions": [
+        {
+          "index": 1,
+          "label": "x",
+          "marginal": 0.95
+        }
+      ],
+      "alternatives": [
+        [
+          {
+            "label": "x",
+            "marginal": 0.95
+          },
+          {
+            "label": "z",
+            "marginal": 0.05000000000000001
+          }
+        ],
+        [
+          {
+            "label": "x",
+            "marginal": 0.95
+          }
+        ],
+        [
+          {
+            "label": "+",
+            "marginal": 1.0
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "name": "q scores as p without renaming output",
+    "symbols": [
+      {
+        "labelLikelihoods": {
+          "q": 0.97,
+          "9": 0.03
+        },
+        "displayedLabel": null,
+        "isVirtual": false,
+        "isPinned": false
+      }
+    ],
+    "expected": {
+      "marginals": [
+        {
+          "9": 0.02293386792881367,
+          "q": 0.9770661320711865
+        }
+      ],
+      "substitution": {
+        "index": 0,
+        "label": "q",
+        "marginal": 0.9770661320711865
+      },
+      "revisions": [],
+      "alternatives": [
+        [
+          {
+            "label": "q",
+            "marginal": 0.9770661320711865
+          },
+          {
+            "label": "9",
+            "marginal": 0.02293386792881367
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "name": "q word and frozen prefix context score as p",
+    "symbols": [
+      {
+        "labelLikelihoods": {
+          "q": 1
+        },
+        "displayedLabel": "q",
+        "isVirtual": false,
+        "isPinned": false
+      },
+      {
+        "labelLikelihoods": {
+          "q": 1
+        },
+        "displayedLabel": "q",
+        "isVirtual": false,
+        "isPinned": false
+      },
+      {
+        "labelLikelihoods": {
+          "q": 1
+        },
+        "displayedLabel": "q",
+        "isVirtual": false,
+        "isPinned": false
+      },
+      {
+        "labelLikelihoods": {
+          "2": 1
+        },
+        "displayedLabel": "2",
+        "isVirtual": false,
+        "isPinned": false
+      },
+      {
+        "labelLikelihoods": {
+          "2": 1
+        },
+        "displayedLabel": "2",
+        "isVirtual": false,
+        "isPinned": false
+      },
+      {
+        "labelLikelihoods": {
+          "2": 1
+        },
+        "displayedLabel": "2",
+        "isVirtual": false,
+        "isPinned": false
+      },
+      {
+        "labelLikelihoods": {
+          "2": 1
+        },
+        "displayedLabel": "2",
+        "isVirtual": false,
+        "isPinned": false
+      },
+      {
+        "labelLikelihoods": {
+          "2": 1
+        },
+        "displayedLabel": "2",
+        "isVirtual": false,
+        "isPinned": false
+      },
+      {
+        "labelLikelihoods": {
+          "2": 1
+        },
+        "displayedLabel": "2",
+        "isVirtual": false,
+        "isPinned": false
+      },
+      {
+        "labelLikelihoods": {
+          "2": 1
+        },
+        "displayedLabel": "2",
+        "isVirtual": false,
+        "isPinned": false
+      },
+      {
+        "labelLikelihoods": {
+          "2": 1
+        },
+        "displayedLabel": "2",
+        "isVirtual": false,
+        "isPinned": false
+      },
+      {
+        "labelLikelihoods": {
+          "2": 1
+        },
+        "displayedLabel": "2",
+        "isVirtual": false,
+        "isPinned": false
+      },
+      {
+        "labelLikelihoods": {
+          "q": 0.97,
+          "9": 0.03
+        },
+        "displayedLabel": null,
+        "isVirtual": false,
+        "isPinned": false
+      }
+    ],
+    "expected": {
+      "marginals": [
+        {
+          "q": 1.0
+        },
+        {
+          "q": 1.0
+        },
+        {
+          "q": 1.0
+        },
+        {
+          "2": 1.0
+        },
+        {
+          "2": 1.0
+        },
+        {
+          "2": 1.0
+        },
+        {
+          "2": 1.0
+        },
+        {
+          "2": 1.0
+        },
+        {
+          "2": 1.0
+        },
+        {
+          "2": 1.0
+        },
+        {
+          "2": 1.0
+        },
+        {
+          "2": 1.0
+        },
+        {
+          "9": 0.14516725666910993,
+          "q": 0.8548327433308887
+        }
+      ],
+      "substitution": {
+        "index": 12,
+        "label": "q",
+        "marginal": 0.8548327433308887
+      },
+      "revisions": [],
+      "alternatives": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          {
+            "label": "q",
+            "marginal": 0.8548327433308887
+          },
+          {
+            "label": "9",
+            "marginal": 0.14516725666910993
+          }
+        ]
+      ]
+    }
+  }
+]

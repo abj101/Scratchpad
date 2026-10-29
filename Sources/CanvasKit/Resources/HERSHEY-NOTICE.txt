@@ -1,0 +1,55 @@
+Hershey occidental glyph data notice
+
+The stroke coordinates in HersheyGlyphs.json are derived from the Hershey
+occidental font data distributed by the Usenet Font Consortium and parsed in
+the CC0/WTFPL-licensed python-hershey project. Letter, digit, and punctuation
+IDs follow U.S. Geological Survey Open-File Report 91-2; the math operators
+use the corresponding dedicated Hershey IDs in the Unicode mapping below. The
+coordinates retain Hershey's x-right, y-down convention. Baseline and advance
+metadata were added for this resource: baseline 9 as the shared Hershey baseline. Centered math glyphs
+retain their source geometry around y=0, the math axis. Advance is the source
+right bearing minus the source left bearing.
+
+The underlying Hershey font data may be used for any purpose, commercial or
+otherwise, with these acknowledgements distributed with the data:
+
+  - The Hershey Fonts were originally created by Dr. A. V. Hershey while
+    working at the U. S. National Bureau of Standards.
+  - The format of the Font data in this distribution was originally created
+    by James Hurt, Cognition, Inc., 900 Technology Park Drive, Billerica, MA
+    01821 (mit-eddie!ci-dandelion!hurt).
+  - The data may be converted into any other format except the format
+    distributed by the U.S. NTIS, which holds rights to distribute and use the
+    font data in that particular format. HersheyGlyphs.json is not that format.
+
+Sources:
+  - https://github.com/scruss/python-hershey
+  - https://raw.githubusercontent.com/scruss/python-hershey/master/hershey-occidental.json
+  - https://pubs.usgs.gov/of/1991/0002/report.pdf
+  - https://www.govinfo.gov/content/pkg/GOVPUB-C13-a73d50f2294c93f29e5bdd9c05baf50a/pdf/GOVPUB-C13-a73d50f2294c93f29e5bdd9c05baf50a.pdf
+  - https://github.com/Kaloffl/Hershey-Unicode-Mapping
+
+Composition and placement:
+  - HersheyGlyphs.json records each source charcode in `sourceIDs`. A glyph built
+    from source paths records its derivation in `composition`; the `sourceID`
+    field is null for these derived forms. vocab.json `hershey_sources` lists
+    only complete source glyphs equivalent to a class, so it is empty for a
+    composition. No other font is used as a substitute.
+  - Every record carries baseline 9 and an advance equal to right minus left.
+    Math operators are centered on y=0 where their source or recorded transform
+    defines a common math axis; punctuation retains its Hershey placement.
+  - Explicit derived shapes are: — (extended Roman Simplex hyphen); ≈ (two
+    source 1246 tilde-relation paths); ≤ and ≥ (one source 1238 bar below the
+    source 1241/1242 chevron); ⊆ (one source 1238 bar below source 1256); ∉
+    (source 1260 membership plus source 720 slash); ∅ (centered source 515 O
+    crossed by centered source 720 slash); ∀ and ⊥ (reflected source 501 A and
+    source 520 T); ¬ (joined components of source 1232 plus); ↔, ⇒ and ⇔ (source
+    1261/1263 arrow components and source 1238 equality bars); ∘ (centered
+    source 515 O); and ^ (source 537 Greek capital Lambda legs scaled to a
+    raised caret). The exact transforms and component IDs are in the JSON.
+
+Vocabulary data:
+  - vocab.json maps labels to HWRT/HASYv2 symbol IDs and aliases from the
+    `hwrt-symbols.csv` and `symbols.csv` release tables. These IDs and labels
+    derive from the HWRT/HASYv2 datasets, distributed under the Open Data
+    Commons Open Database License (ODbL). HASYv2 source: https://zenodo.org/record/259444

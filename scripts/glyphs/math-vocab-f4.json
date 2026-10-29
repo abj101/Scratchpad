@@ -1,0 +1,975 @@
+{
+  "version": 2,
+  "classes": [
+    {
+      "id": "bar",
+      "labels": [
+        "1",
+        "l",
+        "|"
+      ]
+    },
+    {
+      "id": "dot",
+      "labels": [
+        ".",
+        "·"
+      ]
+    },
+    {
+      "id": "glyph_u0021",
+      "labels": [
+        "!"
+      ]
+    },
+    {
+      "id": "glyph_u0028",
+      "labels": [
+        "("
+      ]
+    },
+    {
+      "id": "glyph_u0029",
+      "labels": [
+        ")"
+      ]
+    },
+    {
+      "id": "glyph_u002B",
+      "labels": [
+        "+"
+      ]
+    },
+    {
+      "id": "glyph_u002F",
+      "labels": [
+        "/"
+      ]
+    },
+    {
+      "id": "glyph_u0032",
+      "labels": [
+        "2"
+      ]
+    },
+    {
+      "id": "glyph_u0033",
+      "labels": [
+        "3"
+      ]
+    },
+    {
+      "id": "glyph_u0034",
+      "labels": [
+        "4"
+      ]
+    },
+    {
+      "id": "glyph_u0035",
+      "labels": [
+        "5"
+      ]
+    },
+    {
+      "id": "glyph_u0036",
+      "labels": [
+        "6"
+      ]
+    },
+    {
+      "id": "glyph_u0037",
+      "labels": [
+        "7"
+      ]
+    },
+    {
+      "id": "glyph_u0038",
+      "labels": [
+        "8"
+      ]
+    },
+    {
+      "id": "glyph_u0039",
+      "labels": [
+        "9"
+      ]
+    },
+    {
+      "id": "glyph_u003C",
+      "labels": [
+        "<"
+      ]
+    },
+    {
+      "id": "glyph_u003D",
+      "labels": [
+        "="
+      ]
+    },
+    {
+      "id": "glyph_u003E",
+      "labels": [
+        ">"
+      ]
+    },
+    {
+      "id": "glyph_u005B",
+      "labels": [
+        "["
+      ]
+    },
+    {
+      "id": "glyph_u005D",
+      "labels": [
+        "]"
+      ]
+    },
+    {
+      "id": "glyph_u0061",
+      "labels": [
+        "a"
+      ]
+    },
+    {
+      "id": "glyph_u0062",
+      "labels": [
+        "b"
+      ]
+    },
+    {
+      "id": "glyph_u0063",
+      "labels": [
+        "c"
+      ]
+    },
+    {
+      "id": "glyph_u0064",
+      "labels": [
+        "d"
+      ]
+    },
+    {
+      "id": "glyph_u0065",
+      "labels": [
+        "e"
+      ]
+    },
+    {
+      "id": "glyph_u0066",
+      "labels": [
+        "f"
+      ]
+    },
+    {
+      "id": "glyph_u0067",
+      "labels": [
+        "g"
+      ]
+    },
+    {
+      "id": "glyph_u0068",
+      "labels": [
+        "h"
+      ]
+    },
+    {
+      "id": "glyph_u0069",
+      "labels": [
+        "i"
+      ]
+    },
+    {
+      "id": "glyph_u006A",
+      "labels": [
+        "j"
+      ]
+    },
+    {
+      "id": "glyph_u006B",
+      "labels": [
+        "k"
+      ]
+    },
+    {
+      "id": "glyph_u006D",
+      "labels": [
+        "m"
+      ]
+    },
+    {
+      "id": "glyph_u006E",
+      "labels": [
+        "n"
+      ]
+    },
+    {
+      "id": "glyph_u0070",
+      "labels": [
+        "p"
+      ]
+    },
+    {
+      "id": "glyph_u0072",
+      "labels": [
+        "r"
+      ]
+    },
+    {
+      "id": "glyph_u0073",
+      "labels": [
+        "s"
+      ]
+    },
+    {
+      "id": "glyph_u0074",
+      "labels": [
+        "t"
+      ]
+    },
+    {
+      "id": "glyph_u0075",
+      "labels": [
+        "u"
+      ]
+    },
+    {
+      "id": "glyph_u0076",
+      "labels": [
+        "v"
+      ]
+    },
+    {
+      "id": "glyph_u0077",
+      "labels": [
+        "w"
+      ]
+    },
+    {
+      "id": "glyph_u0078",
+      "labels": [
+        "x"
+      ]
+    },
+    {
+      "id": "glyph_u0079",
+      "labels": [
+        "y"
+      ]
+    },
+    {
+      "id": "glyph_u007A",
+      "labels": [
+        "z"
+      ]
+    },
+    {
+      "id": "glyph_u00B1",
+      "labels": [
+        "±"
+      ]
+    },
+    {
+      "id": "glyph_u00F7",
+      "labels": [
+        "÷"
+      ]
+    },
+    {
+      "id": "glyph_u0394",
+      "labels": [
+        "Δ"
+      ]
+    },
+    {
+      "id": "glyph_u03B8",
+      "labels": [
+        "θ"
+      ]
+    },
+    {
+      "id": "glyph_u03C0",
+      "labels": [
+        "π"
+      ]
+    },
+    {
+      "id": "glyph_u2192",
+      "labels": [
+        "→"
+      ]
+    },
+    {
+      "id": "glyph_u2211",
+      "labels": [
+        "∑"
+      ]
+    },
+    {
+      "id": "glyph_u2212",
+      "labels": [
+        "−"
+      ]
+    },
+    {
+      "id": "glyph_u221A",
+      "labels": [
+        "√"
+      ]
+    },
+    {
+      "id": "glyph_u221E",
+      "labels": [
+        "∞"
+      ]
+    },
+    {
+      "id": "glyph_u222B",
+      "labels": [
+        "∫"
+      ]
+    },
+    {
+      "id": "glyph_u2260",
+      "labels": [
+        "≠"
+      ]
+    },
+    {
+      "id": "glyph_u2264",
+      "labels": [
+        "≤"
+      ]
+    },
+    {
+      "id": "glyph_u2265",
+      "labels": [
+        "≥"
+      ]
+    },
+    {
+      "id": "junk",
+      "labels": [
+        "<unk>"
+      ]
+    },
+    {
+      "id": "ring",
+      "labels": [
+        "0",
+        "o",
+        "°"
+      ]
+    },
+    {
+      "id": "tick",
+      "labels": [
+        ",",
+        "′"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "label": "0",
+      "class": "ring",
+      "kind": "digit",
+      "hershey": "0",
+      "latex": [
+        "0"
+      ]
+    },
+    {
+      "label": "1",
+      "class": "bar",
+      "kind": "digit",
+      "hershey": "1",
+      "latex": [
+        "1"
+      ]
+    },
+    {
+      "label": "2",
+      "class": "glyph_u0032",
+      "kind": "digit",
+      "hershey": "2",
+      "latex": [
+        "2"
+      ]
+    },
+    {
+      "label": "3",
+      "class": "glyph_u0033",
+      "kind": "digit",
+      "hershey": "3",
+      "latex": [
+        "3"
+      ]
+    },
+    {
+      "label": "4",
+      "class": "glyph_u0034",
+      "kind": "digit",
+      "hershey": "4",
+      "latex": [
+        "4"
+      ]
+    },
+    {
+      "label": "5",
+      "class": "glyph_u0035",
+      "kind": "digit",
+      "hershey": "5",
+      "latex": [
+        "5"
+      ]
+    },
+    {
+      "label": "6",
+      "class": "glyph_u0036",
+      "kind": "digit",
+      "hershey": "6",
+      "latex": [
+        "6"
+      ]
+    },
+    {
+      "label": "7",
+      "class": "glyph_u0037",
+      "kind": "digit",
+      "hershey": "7",
+      "latex": [
+        "7"
+      ]
+    },
+    {
+      "label": "8",
+      "class": "glyph_u0038",
+      "kind": "digit",
+      "hershey": "8",
+      "latex": [
+        "8"
+      ]
+    },
+    {
+      "label": "9",
+      "class": "glyph_u0039",
+      "kind": "digit",
+      "hershey": "9",
+      "latex": [
+        "9"
+      ]
+    },
+    {
+      "label": "a",
+      "class": "glyph_u0061",
+      "kind": "lower",
+      "hershey": "a",
+      "latex": [
+        "a"
+      ]
+    },
+    {
+      "label": "b",
+      "class": "glyph_u0062",
+      "kind": "lower",
+      "hershey": "b",
+      "latex": [
+        "b"
+      ]
+    },
+    {
+      "label": "c",
+      "class": "glyph_u0063",
+      "kind": "lower",
+      "hershey": "c",
+      "latex": [
+        "c"
+      ]
+    },
+    {
+      "label": "d",
+      "class": "glyph_u0064",
+      "kind": "lower",
+      "hershey": "d",
+      "latex": [
+        "d"
+      ]
+    },
+    {
+      "label": "e",
+      "class": "glyph_u0065",
+      "kind": "lower",
+      "hershey": "e",
+      "latex": [
+        "e"
+      ]
+    },
+    {
+      "label": "f",
+      "class": "glyph_u0066",
+      "kind": "lower",
+      "hershey": "f",
+      "latex": [
+        "f"
+      ]
+    },
+    {
+      "label": "g",
+      "class": "glyph_u0067",
+      "kind": "lower",
+      "hershey": "g",
+      "latex": [
+        "g"
+      ]
+    },
+    {
+      "label": "h",
+      "class": "glyph_u0068",
+      "kind": "lower",
+      "hershey": "h",
+      "latex": [
+        "h"
+      ]
+    },
+    {
+      "label": "i",
+      "class": "glyph_u0069",
+      "kind": "lower",
+      "hershey": "i",
+      "latex": [
+        "i"
+      ]
+    },
+    {
+      "label": "j",
+      "class": "glyph_u006A",
+      "kind": "lower",
+      "hershey": "j",
+      "latex": [
+        "j"
+      ]
+    },
+    {
+      "label": "k",
+      "class": "glyph_u006B",
+      "kind": "lower",
+      "hershey": "k",
+      "latex": [
+        "k"
+      ]
+    },
+    {
+      "label": "l",
+      "class": "bar",
+      "kind": "lower",
+      "hershey": "l",
+      "latex": [
+        "l"
+      ]
+    },
+    {
+      "label": "m",
+      "class": "glyph_u006D",
+      "kind": "lower",
+      "hershey": "m",
+      "latex": [
+        "m"
+      ]
+    },
+    {
+      "label": "n",
+      "class": "glyph_u006E",
+      "kind": "lower",
+      "hershey": "n",
+      "latex": [
+        "n"
+      ]
+    },
+    {
+      "label": "o",
+      "class": "ring",
+      "kind": "lower",
+      "hershey": "o",
+      "latex": [
+        "o"
+      ]
+    },
+    {
+      "label": "p",
+      "class": "glyph_u0070",
+      "kind": "lower",
+      "hershey": "p",
+      "latex": [
+        "p"
+      ]
+    },
+    {
+      "label": "r",
+      "class": "glyph_u0072",
+      "kind": "lower",
+      "hershey": "r",
+      "latex": [
+        "r"
+      ]
+    },
+    {
+      "label": "s",
+      "class": "glyph_u0073",
+      "kind": "lower",
+      "hershey": "s",
+      "latex": [
+        "s"
+      ]
+    },
+    {
+      "label": "t",
+      "class": "glyph_u0074",
+      "kind": "lower",
+      "hershey": "t",
+      "latex": [
+        "t"
+      ]
+    },
+    {
+      "label": "u",
+      "class": "glyph_u0075",
+      "kind": "lower",
+      "hershey": "u",
+      "latex": [
+        "u"
+      ]
+    },
+    {
+      "label": "v",
+      "class": "glyph_u0076",
+      "kind": "lower",
+      "hershey": "v",
+      "latex": [
+        "v"
+      ]
+    },
+    {
+      "label": "w",
+      "class": "glyph_u0077",
+      "kind": "lower",
+      "hershey": "w",
+      "latex": [
+        "w"
+      ]
+    },
+    {
+      "label": "x",
+      "class": "glyph_u0078",
+      "kind": "lower",
+      "hershey": "x",
+      "latex": [
+        "x"
+      ]
+    },
+    {
+      "label": "y",
+      "class": "glyph_u0079",
+      "kind": "lower",
+      "hershey": "y",
+      "latex": [
+        "y"
+      ]
+    },
+    {
+      "label": "z",
+      "class": "glyph_u007A",
+      "kind": "lower",
+      "hershey": "z",
+      "latex": [
+        "z"
+      ]
+    },
+    {
+      "label": "+",
+      "class": "glyph_u002B",
+      "kind": "operator",
+      "hershey": "+",
+      "latex": [
+        "+"
+      ]
+    },
+    {
+      "label": "−",
+      "class": "glyph_u2212",
+      "kind": "operator",
+      "hershey": "−",
+      "latex": [
+        "-"
+      ]
+    },
+    {
+      "label": "·",
+      "class": "dot",
+      "kind": "raised",
+      "hershey": "·",
+      "latex": [
+        "\\cdot",
+        "\\times"
+      ]
+    },
+    {
+      "label": "÷",
+      "class": "glyph_u00F7",
+      "kind": "operator",
+      "hershey": "÷",
+      "latex": [
+        "\\div"
+      ]
+    },
+    {
+      "label": "=",
+      "class": "glyph_u003D",
+      "kind": "operator",
+      "hershey": "=",
+      "latex": [
+        "="
+      ]
+    },
+    {
+      "label": "≠",
+      "class": "glyph_u2260",
+      "kind": "operator",
+      "hershey": "≠",
+      "latex": [
+        "\\neq",
+        "\\ne"
+      ]
+    },
+    {
+      "label": "<",
+      "class": "glyph_u003C",
+      "kind": "operator",
+      "hershey": "<",
+      "latex": [
+        "<"
+      ]
+    },
+    {
+      "label": ">",
+      "class": "glyph_u003E",
+      "kind": "operator",
+      "hershey": ">",
+      "latex": [
+        ">"
+      ]
+    },
+    {
+      "label": "≤",
+      "class": "glyph_u2264",
+      "kind": "operator",
+      "hershey": "≤",
+      "latex": [
+        "\\le",
+        "\\leq"
+      ]
+    },
+    {
+      "label": "≥",
+      "class": "glyph_u2265",
+      "kind": "operator",
+      "hershey": "≥",
+      "latex": [
+        "\\ge",
+        "\\geq"
+      ]
+    },
+    {
+      "label": "±",
+      "class": "glyph_u00B1",
+      "kind": "operator",
+      "hershey": "±",
+      "latex": [
+        "\\pm"
+      ]
+    },
+    {
+      "label": "/",
+      "class": "glyph_u002F",
+      "kind": "operator",
+      "hershey": "/",
+      "latex": [
+        "/"
+      ]
+    },
+    {
+      "label": "!",
+      "class": "glyph_u0021",
+      "kind": "operator",
+      "hershey": "!",
+      "latex": [
+        "!"
+      ]
+    },
+    {
+      "label": "(",
+      "class": "glyph_u0028",
+      "kind": "delim",
+      "hershey": "(",
+      "latex": [
+        "("
+      ]
+    },
+    {
+      "label": ")",
+      "class": "glyph_u0029",
+      "kind": "delim",
+      "hershey": ")",
+      "latex": [
+        ")"
+      ]
+    },
+    {
+      "label": "[",
+      "class": "glyph_u005B",
+      "kind": "delim",
+      "hershey": "[",
+      "latex": [
+        "["
+      ]
+    },
+    {
+      "label": "]",
+      "class": "glyph_u005D",
+      "kind": "delim",
+      "hershey": "]",
+      "latex": [
+        "]"
+      ]
+    },
+    {
+      "label": "|",
+      "class": "bar",
+      "kind": "delim",
+      "hershey": "|",
+      "latex": [
+        "\\|",
+        "\\vert",
+        "\\mid",
+        "\\lvert",
+        "\\rvert"
+      ]
+    },
+    {
+      "label": ".",
+      "class": "dot",
+      "kind": "low",
+      "hershey": ".",
+      "latex": [
+        "."
+      ]
+    },
+    {
+      "label": ",",
+      "class": "tick",
+      "kind": "low",
+      "hershey": ",",
+      "latex": [
+        ","
+      ]
+    },
+    {
+      "label": "′",
+      "class": "tick",
+      "kind": "raised",
+      "hershey": "′",
+      "latex": [
+        "'",
+        "\\prime"
+      ]
+    },
+    {
+      "label": "√",
+      "class": "glyph_u221A",
+      "kind": "calc",
+      "hershey": "√",
+      "latex": [
+        "\\sqrt"
+      ]
+    },
+    {
+      "label": "∫",
+      "class": "glyph_u222B",
+      "kind": "calc",
+      "hershey": "∫",
+      "latex": [
+        "\\int"
+      ]
+    },
+    {
+      "label": "∑",
+      "class": "glyph_u2211",
+      "kind": "calc",
+      "hershey": "∑",
+      "latex": [
+        "\\sum"
+      ]
+    },
+    {
+      "label": "π",
+      "class": "glyph_u03C0",
+      "kind": "calc",
+      "hershey": "π",
+      "latex": [
+        "\\pi"
+      ]
+    },
+    {
+      "label": "θ",
+      "class": "glyph_u03B8",
+      "kind": "calc",
+      "hershey": "θ",
+      "latex": [
+        "\\theta"
+      ]
+    },
+    {
+      "label": "Δ",
+      "class": "glyph_u0394",
+      "kind": "calc",
+      "hershey": "Δ",
+      "latex": [
+        "\\Delta"
+      ]
+    },
+    {
+      "label": "∞",
+      "class": "glyph_u221E",
+      "kind": "calc",
+      "hershey": "∞",
+      "latex": [
+        "\\infty"
+      ]
+    },
+    {
+      "label": "→",
+      "class": "glyph_u2192",
+      "kind": "calc",
+      "hershey": "→",
+      "latex": [
+        "\\to",
+        "\\rightarrow"
+      ]
+    },
+    {
+      "label": "°",
+      "class": "ring",
+      "kind": "calc",
+      "hershey": "°",
+      "latex": [
+        "\\circ"
+      ]
+    },
+    {
+      "label": "<unk>",
+      "class": "junk",
+      "kind": "junk",
+      "hershey": "",
+      "latex": []
+    }
+  ]
+}

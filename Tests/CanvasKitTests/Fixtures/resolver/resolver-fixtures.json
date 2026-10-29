@@ -1,0 +1,491 @@
+[
+ {
+  "name": "singleton",
+  "classID": "glyph_u0032",
+  "bounds": [
+   0.0,
+   99.0,
+   2.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": 20.0,
+   "baseline": 100.0,
+   "cellHeight": null,
+   "mode": "math"
+  },
+  "expected": {
+   "2": 1.0
+  }
+ },
+ {
+  "name": "bar",
+  "classID": "bar",
+  "bounds": [
+   0.0,
+   99.0,
+   2.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": 20.0,
+   "baseline": 100.0,
+   "cellHeight": null,
+   "mode": "math"
+  },
+  "expected": {
+   "1": 0.95,
+   "|": 0.05
+  }
+ },
+ {
+  "name": "dot_missing_baseline",
+  "classID": "dot",
+  "bounds": [
+   0.0,
+   99.0,
+   2.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": 20.0,
+   "baseline": null,
+   "cellHeight": null,
+   "mode": "math"
+  },
+  "expected": {
+   ".": 0.5,
+   "·": 0.5
+  }
+ },
+ {
+  "name": "dot_missing_height",
+  "classID": "dot",
+  "bounds": [
+   0.0,
+   99.0,
+   2.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": null,
+   "baseline": 100.0,
+   "cellHeight": null,
+   "mode": "math"
+  },
+  "expected": {
+   ".": 0.5,
+   "·": 0.5
+  }
+ },
+ {
+  "name": "tick_missing_baseline",
+  "classID": "tick",
+  "bounds": [
+   0.0,
+   99.0,
+   2.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": 20.0,
+   "baseline": null,
+   "cellHeight": null,
+   "mode": "math"
+  },
+  "expected": {
+   ",": 0.5,
+   "′": 0.5
+  }
+ },
+ {
+  "name": "tick_missing_height",
+  "classID": "tick",
+  "bounds": [
+   0.0,
+   99.0,
+   2.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": null,
+   "baseline": 100.0,
+   "cellHeight": null,
+   "mode": "math"
+  },
+  "expected": {
+   ",": 0.5,
+   "′": 0.5
+  }
+ },
+ {
+  "name": "ring_missing_baseline",
+  "classID": "ring",
+  "bounds": [
+   0.0,
+   99.0,
+   2.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": 20.0,
+   "baseline": null,
+   "cellHeight": null,
+   "mode": "math"
+  },
+  "expected": {
+   "0": 0.855,
+   "o": 0.095,
+   "°": 0.05
+  }
+ },
+ {
+  "name": "ring_missing_height",
+  "classID": "ring",
+  "bounds": [
+   0.0,
+   99.0,
+   2.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": null,
+   "baseline": 100.0,
+   "cellHeight": null,
+   "mode": "math"
+  },
+  "expected": {
+   "0": 0.855,
+   "o": 0.095,
+   "°": 0.05
+  }
+ },
+ {
+  "name": "dot_low",
+  "classID": "dot",
+  "bounds": [
+   0.0,
+   99.0,
+   2.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": 20.0,
+   "baseline": 100.0,
+   "cellHeight": null,
+   "mode": "math"
+  },
+  "expected": {
+   ".": 0.9975273768433652,
+   "·": 0.002472623156634777
+  }
+ },
+ {
+  "name": "dot_threshold",
+  "classID": "dot",
+  "bounds": [
+   0.0,
+   93.0,
+   2.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": 20.0,
+   "baseline": 100.0,
+   "cellHeight": null,
+   "mode": "math"
+  },
+  "expected": {
+   ".": 0.5,
+   "·": 0.5
+  }
+ },
+ {
+  "name": "dot_raised",
+  "classID": "dot",
+  "bounds": [
+   0.0,
+   89.0,
+   2.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": 20.0,
+   "baseline": 100.0,
+   "cellHeight": null,
+   "mode": "math"
+  },
+  "expected": {
+   ".": 0.01798620996209155,
+   "·": 0.9820137900379085
+  }
+ },
+ {
+  "name": "tick_low",
+  "classID": "tick",
+  "bounds": [
+   0.0,
+   94.0,
+   2.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": 20.0,
+   "baseline": 100.0,
+   "cellHeight": null,
+   "mode": "math"
+  },
+  "expected": {
+   ",": 0.9820137900379085,
+   "′": 0.017986209962091555
+  }
+ },
+ {
+  "name": "tick_threshold",
+  "classID": "tick",
+  "bounds": [
+   0.0,
+   90.0,
+   2.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": 20.0,
+   "baseline": 100.0,
+   "cellHeight": null,
+   "mode": "math"
+  },
+  "expected": {
+   ",": 0.5,
+   "′": 0.5
+  }
+ },
+ {
+  "name": "tick_raised",
+  "classID": "tick",
+  "bounds": [
+   0.0,
+   85.0,
+   2.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": 20.0,
+   "baseline": 100.0,
+   "cellHeight": null,
+   "mode": "math"
+  },
+  "expected": {
+   ",": 0.006692850924284954,
+   "′": 0.993307149075715
+  }
+ },
+ {
+  "name": "ring_thresholds",
+  "classID": "ring",
+  "bounds": [
+   0.0,
+   88.0,
+   9.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": 20.0,
+   "baseline": 100.0,
+   "cellHeight": null,
+   "mode": "math"
+  },
+  "expected": {
+   "0": 0.675,
+   "o": 0.07500000000000001,
+   "°": 0.25
+  }
+ },
+ {
+  "name": "ring_raised_small",
+  "classID": "ring",
+  "bounds": [
+   0.0,
+   84.0,
+   5.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": 20.0,
+   "baseline": 100.0,
+   "cellHeight": null,
+   "mode": "math"
+  },
+  "expected": {
+   "0": 0.03208402455784442,
+   "o": 0.0035648916175382685,
+   "°": 0.9643510838246173
+  }
+ },
+ {
+  "name": "ring_raised_large",
+  "classID": "ring",
+  "bounds": [
+   0.0,
+   84.0,
+   20.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": 20.0,
+   "baseline": 100.0,
+   "cellHeight": null,
+   "mode": "math"
+  },
+  "expected": {
+   "0": 0.8999852390760887,
+   "o": 0.0999983598973432,
+   "°": 1.640102656806988e-05
+  }
+ },
+ {
+  "name": "ring_low_small",
+  "classID": "ring",
+  "bounds": [
+   0.0,
+   99.0,
+   5.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": 20.0,
+   "baseline": 100.0,
+   "cellHeight": null,
+   "mode": "math"
+  },
+  "expected": {
+   "0": 0.8999852390760887,
+   "o": 0.0999983598973432,
+   "°": 1.640102656806988e-05
+  }
+ },
+ {
+  "name": "dot_cell_height_fallback",
+  "classID": "dot",
+  "bounds": [
+   0.0,
+   89.0,
+   2.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": null,
+   "baseline": 100.0,
+   "cellHeight": 50.0,
+   "mode": "math"
+  },
+  "expected": {
+   ".": 0.5,
+   "·": 0.5
+  }
+ },
+ {
+  "name": "ring_cell_height_fallback",
+  "classID": "ring",
+  "bounds": [
+   0.0,
+   88.0,
+   9.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": null,
+   "baseline": 100.0,
+   "cellHeight": 50.0,
+   "mode": "math"
+  },
+  "expected": {
+   "0": 0.855,
+   "o": 0.095,
+   "°": 0.05
+  }
+ },
+ {
+  "name": "bar_text",
+  "classID": "bar",
+  "bounds": [
+   0.0,
+   99.0,
+   2.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": 20.0,
+   "baseline": 100.0,
+   "cellHeight": null,
+   "mode": "text"
+  },
+  "expected": {
+   "1": 0.5,
+   "|": 0.5
+  }
+ },
+ {
+  "name": "ring_missing_baseline_text",
+  "classID": "ring",
+  "bounds": [
+   0.0,
+   99.0,
+   2.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": 20.0,
+   "baseline": null,
+   "cellHeight": null,
+   "mode": "text"
+  },
+  "expected": {
+   "0": 0.45,
+   "o": 0.45,
+   "°": 0.1
+  }
+ },
+ {
+  "name": "ring_thresholds_text",
+  "classID": "ring",
+  "bounds": [
+   0.0,
+   88.0,
+   9.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": 20.0,
+   "baseline": 100.0,
+   "cellHeight": null,
+   "mode": "text"
+  },
+  "expected": {
+   "0": 0.375,
+   "o": 0.375,
+   "°": 0.25
+  }
+ },
+ {
+  "name": "ring_raised_small_text",
+  "classID": "ring",
+  "bounds": [
+   0.0,
+   84.0,
+   5.0,
+   2.0
+  ],
+  "context": {
+   "medianHeight": 20.0,
+   "baseline": 100.0,
+   "cellHeight": null,
+   "mode": "text"
+  },
+  "expected": {
+   "0": 0.01782445808769134,
+   "o": 0.01782445808769134,
+   "°": 0.9643510838246173
+  }
+ }
+]

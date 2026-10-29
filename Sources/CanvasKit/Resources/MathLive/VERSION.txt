@@ -1,0 +1,4 @@
+MathLive 0.111.0
+Published package: https://registry.npmjs.org/mathlive/-/mathlive-0.111.0.tgz
+SHA-1: 819dafb30186e91644785faefddd46dc0e525ad9
+Runtime: mathlive.min.js; fonts, CSS, and MIT license from the same package.

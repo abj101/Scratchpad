@@ -1,0 +1,60 @@
+# Swift / Xcode generated files
+.build/
+.swiftpm/
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+build/
+xcuserdata/
+*.xcuserstate
+*.xcresult/
+*.dSYM/
+*.ipa
+
+# JavaScript dependencies and generated output
+node_modules/
+dist/
+.vite/
+coverage/
+
+# Python environments, caches, and training artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.p8
+*.mobileprovision
+
+# Local tools, editor state, and personal development notes
+.codegraph/
+.freebuff/
+.claude/
+.codex/
+.mcp.json
+.vscode/
+.idea/
+/HANDOFF*.md
+/running.md
+/math-mode-fixes-plan.md
+
+# Personal notes and runtime output
+*.scratch/
+*.log
+.DS_Store
+.AppleDouble
+*.swp
+*~

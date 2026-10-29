@@ -1,0 +1,107 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "shortDescription" : "Math glyph classifier: raster, pen path, and raw geometry globals",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 64)",
+        "shortDescription" : "",
+        "shape" : "[1, 64]",
+        "name" : "logits",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 256)",
+        "shortDescription" : "",
+        "shape" : "[1, 256]",
+        "name" : "embedding",
+        "type" : "MultiArray"
+      }
+    ],
+    "storagePrecision" : "Float32",
+    "modelParameters" : [
+
+    ],
+    "specificationVersion" : 7,
+    "mlProgramOperationTypeHistogram" : {
+      "Concat" : 2,
+      "Ios16.cast" : 14,
+      "Ios16.mul" : 1,
+      "Ios16.sub" : 1,
+      "Transpose" : 1,
+      "Ios16.maxPool" : 3,
+      "Ios16.linear" : 4,
+      "Ios16.reduceMean" : 1,
+      "Ios16.relu" : 8,
+      "Ios16.conv" : 6,
+      "Ios16.reduceMax" : 1,
+      "Ios16.reshape" : 1
+    },
+    "computePrecision" : "Mixed (Float16, Float32, Int32)",
+    "isUpdatable" : "0",
+    "stateSchema" : [
+
+    ],
+    "availability" : {
+      "macOS" : "13.0",
+      "tvOS" : "16.0",
+      "visionOS" : "1.0",
+      "watchOS" : "9.0",
+      "iOS" : "16.0",
+      "macCatalyst" : "16.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_mlProgram"
+    },
+    "inputSchema" : [
+      {
+        "height" : "32",
+        "colorspace" : "Grayscale",
+        "isOptional" : "0",
+        "width" : "32",
+        "isColor" : "0",
+        "formattedType" : "Image (Grayscale 32 × 32)",
+        "hasSizeFlexibility" : "0",
+        "type" : "Image",
+        "shortDescription" : "",
+        "name" : "glyphImage"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 128 × 4)",
+        "shortDescription" : "",
+        "shape" : "[1, 128, 4]",
+        "name" : "strokePoints",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 2)",
+        "shortDescription" : "",
+        "shape" : "[1, 2]",
+        "name" : "strokeGlobals",
+        "type" : "MultiArray"
+      }
+    ],
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.conversion_date" : "2026-10-06",
+      "mathLMSHA256" : "71376749b22abc6305f43220a24e395f3d0f82e7e6e5037701176c784ca9c917",
+      "mathVocabSHA256" : "f664a531717308485263037949b188dedbb1bf6d461dcc08489a63489d3e8b21",
+      "com.github.apple.coremltools.source" : "torch==2.9.1",
+      "com.github.apple.coremltools.version" : "9.0",
+      "com.github.apple.coremltools.source_dialect" : "TorchScript"
+    },
+    "generatedClassName" : "MathGlyphs",
+    "method" : "predict"
+  }
+]

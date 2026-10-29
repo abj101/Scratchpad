@@ -1,0 +1,2849 @@
+{
+  "version": 1,
+  "classes": [
+    {
+      "label": "!",
+      "hwrt_ids": [],
+      "hershey": "!",
+      "group": "glyph_u0021",
+      "kind": "punct",
+      "hershey_sources": [
+        214,
+        714,
+        1214,
+        2214,
+        2714,
+        2764,
+        3214,
+        3264,
+        3714
+      ]
+    },
+    {
+      "label": "\"",
+      "hwrt_ids": [],
+      "hershey": "\"",
+      "group": "glyph_u0022",
+      "kind": "raised",
+      "hershey_sources": [
+        217,
+        717,
+        1217,
+        2217,
+        2728,
+        2778,
+        3228,
+        3278,
+        3728
+      ]
+    },
+    {
+      "label": "#",
+      "hwrt_ids": [
+        266
+      ],
+      "hershey": "#",
+      "group": "glyph_u0023",
+      "kind": "punct",
+      "hershey_sources": [
+        233,
+        733,
+        1275,
+        2275
+      ]
+    },
+    {
+      "label": "$",
+      "hwrt_ids": [
+        254
+      ],
+      "hershey": "$",
+      "group": "glyph_u0024",
+      "kind": "punct",
+      "hershey_sources": [
+        219,
+        719,
+        1274,
+        2274,
+        2719,
+        2769,
+        3219,
+        3269,
+        3719
+      ]
+    },
+    {
+      "label": "%",
+      "hwrt_ids": [
+        267
+      ],
+      "hershey": "%",
+      "group": "glyph_u0025",
+      "kind": "punct",
+      "hershey_sources": [
+        1271,
+        2271
+      ]
+    },
+    {
+      "label": "&",
+      "hwrt_ids": [
+        265
+      ],
+      "hershey": "&",
+      "group": "glyph_u0026",
+      "kind": "punct",
+      "hershey_sources": [
+        234,
+        734,
+        1272,
+        2272,
+        2718,
+        2768,
+        3218,
+        3268,
+        3718
+      ]
+    },
+    {
+      "label": "'",
+      "hwrt_ids": [],
+      "hershey": "'",
+      "group": "ambig_comma_quote",
+      "kind": "raised",
+      "hershey_sources": [
+        216,
+        716,
+        1216,
+        2216,
+        2727,
+        2777,
+        3227,
+        3277,
+        3727,
+        731
+      ]
+    },
+    {
+      "label": "(",
+      "hwrt_ids": [],
+      "hershey": "(",
+      "group": "glyph_u0028",
+      "kind": "punct",
+      "hershey_sources": [
+        221,
+        721,
+        1221,
+        1403,
+        2221,
+        2403,
+        2721,
+        2771,
+        3221,
+        3271,
+        3721
+      ]
+    },
+    {
+      "label": ")",
+      "hwrt_ids": [],
+      "hershey": ")",
+      "group": "glyph_u0029",
+      "kind": "punct",
+      "hershey_sources": [
+        222,
+        722,
+        1222,
+        1404,
+        2222,
+        2404,
+        2722,
+        2772,
+        3222,
+        3272,
+        3722
+      ]
+    },
+    {
+      "label": "*",
+      "hwrt_ids": [],
+      "hershey": "*",
+      "group": "glyph_u002A",
+      "kind": "punct",
+      "hershey_sources": [
+        228,
+        728,
+        847,
+        1219,
+        2219,
+        2723,
+        2773,
+        3223,
+        3273,
+        3723
+      ]
+    },
+    {
+      "label": "+",
+      "hwrt_ids": [
+        196
+      ],
+      "hershey": "+",
+      "group": "glyph_u002B",
+      "kind": "operator",
+      "hershey_sources": [
+        225,
+        725,
+        1232,
+        2232,
+        2725,
+        2775,
+        3225,
+        3275,
+        3725
+      ]
+    },
+    {
+      "label": ",",
+      "hwrt_ids": [],
+      "hershey": ",",
+      "group": "ambig_comma_quote",
+      "kind": "low",
+      "hershey_sources": [
+        211,
+        711,
+        1211,
+        2211,
+        2711,
+        2761,
+        3211,
+        3261,
+        3711
+      ]
+    },
+    {
+      "label": "-",
+      "hwrt_ids": [
+        195
+      ],
+      "hershey": "-",
+      "group": "ambig_dash",
+      "kind": "punct",
+      "hershey_sources": [
+        224,
+        724,
+        997,
+        998,
+        999,
+        1231,
+        2231,
+        2724,
+        2774,
+        3224,
+        3274,
+        3724
+      ]
+    },
+    {
+      "label": ".",
+      "hwrt_ids": [],
+      "hershey": ".",
+      "group": "ambig_circle",
+      "kind": "low",
+      "hershey_sources": [
+        210,
+        710,
+        1210,
+        2210,
+        2710,
+        2760,
+        3210,
+        3260,
+        3710
+      ]
+    },
+    {
+      "label": "/",
+      "hwrt_ids": [
+        922
+      ],
+      "hershey": "/",
+      "group": "glyph_u002F",
+      "kind": "punct",
+      "hershey_sources": [
+        220,
+        720,
+        1220,
+        2220,
+        2720,
+        2770,
+        3220,
+        3270,
+        3720
+      ]
+    },
+    {
+      "label": "0",
+      "hwrt_ids": [
+        70
+      ],
+      "hershey": "0",
+      "group": "ambig_circle",
+      "kind": "digit",
+      "hershey_sources": [
+        200,
+        700,
+        1200,
+        2200,
+        2700,
+        2750,
+        3200,
+        3250,
+        3700
+      ]
+    },
+    {
+      "label": "1",
+      "hwrt_ids": [
+        71
+      ],
+      "hershey": "1",
+      "group": "ambig_one_bar",
+      "kind": "digit",
+      "hershey_sources": [
+        201,
+        701,
+        1201,
+        2201,
+        2701,
+        2751,
+        3201,
+        3251,
+        3701
+      ]
+    },
+    {
+      "label": "2",
+      "hwrt_ids": [
+        72
+      ],
+      "hershey": "2",
+      "group": "glyph_u0032",
+      "kind": "digit",
+      "hershey_sources": [
+        202,
+        702,
+        1202,
+        2202,
+        2702,
+        2752,
+        3202,
+        3252,
+        3702
+      ]
+    },
+    {
+      "label": "3",
+      "hwrt_ids": [
+        73
+      ],
+      "hershey": "3",
+      "group": "glyph_u0033",
+      "kind": "digit",
+      "hershey_sources": [
+        203,
+        703,
+        1203,
+        2203,
+        2703,
+        2753,
+        3203,
+        3253,
+        3703
+      ]
+    },
+    {
+      "label": "4",
+      "hwrt_ids": [
+        74
+      ],
+      "hershey": "4",
+      "group": "glyph_u0034",
+      "kind": "digit",
+      "hershey_sources": [
+        204,
+        704,
+        1204,
+        2204,
+        2704,
+        2754,
+        3204,
+        3254,
+        3704
+      ]
+    },
+    {
+      "label": "5",
+      "hwrt_ids": [
+        75
+      ],
+      "hershey": "5",
+      "group": "glyph_u0035",
+      "kind": "digit",
+      "hershey_sources": [
+        205,
+        705,
+        1205,
+        2205,
+        2705,
+        2755,
+        3205,
+        3255,
+        3705
+      ]
+    },
+    {
+      "label": "6",
+      "hwrt_ids": [
+        76
+      ],
+      "hershey": "6",
+      "group": "glyph_u0036",
+      "kind": "digit",
+      "hershey_sources": [
+        206,
+        706,
+        1206,
+        2206,
+        2706,
+        2756,
+        3206,
+        3256,
+        3706
+      ]
+    },
+    {
+      "label": "7",
+      "hwrt_ids": [
+        77
+      ],
+      "hershey": "7",
+      "group": "glyph_u0037",
+      "kind": "digit",
+      "hershey_sources": [
+        207,
+        707,
+        1207,
+        2207,
+        2707,
+        2757,
+        3207,
+        3257,
+        3707
+      ]
+    },
+    {
+      "label": "8",
+      "hwrt_ids": [
+        78
+      ],
+      "hershey": "8",
+      "group": "glyph_u0038",
+      "kind": "digit",
+      "hershey_sources": [
+        208,
+        708,
+        1208,
+        2208,
+        2708,
+        2758,
+        3208,
+        3258,
+        3708
+      ]
+    },
+    {
+      "label": "9",
+      "hwrt_ids": [
+        79
+      ],
+      "hershey": "9",
+      "group": "glyph_u0039",
+      "kind": "digit",
+      "hershey_sources": [
+        209,
+        709,
+        1209,
+        2209,
+        2709,
+        2759,
+        3209,
+        3259,
+        3709
+      ]
+    },
+    {
+      "label": ":",
+      "hwrt_ids": [],
+      "hershey": ":",
+      "group": "glyph_u003A",
+      "kind": "punct",
+      "hershey_sources": [
+        212,
+        712,
+        1212,
+        2212,
+        2712,
+        2762,
+        3212,
+        3262,
+        3712
+      ]
+    },
+    {
+      "label": ";",
+      "hwrt_ids": [],
+      "hershey": ";",
+      "group": "glyph_u003B",
+      "kind": "low",
+      "hershey_sources": [
+        213,
+        713,
+        1213,
+        2213,
+        2713,
+        2763,
+        3213,
+        3263,
+        3713
+      ]
+    },
+    {
+      "label": "<",
+      "hwrt_ids": [
+        187
+      ],
+      "hershey": "<",
+      "group": "glyph_u003C",
+      "kind": "operator",
+      "hershey_sources": [
+        1241,
+        2241
+      ]
+    },
+    {
+      "label": "=",
+      "hwrt_ids": [],
+      "hershey": "=",
+      "group": "glyph_u003D",
+      "kind": "operator",
+      "hershey_sources": [
+        226,
+        726,
+        1238,
+        2238,
+        2726,
+        2776,
+        3226,
+        3276,
+        3726
+      ]
+    },
+    {
+      "label": ">",
+      "hwrt_ids": [
+        188
+      ],
+      "hershey": ">",
+      "group": "glyph_u003E",
+      "kind": "operator",
+      "hershey_sources": [
+        1242,
+        2242
+      ]
+    },
+    {
+      "label": "?",
+      "hwrt_ids": [],
+      "hershey": "?",
+      "group": "glyph_u003F",
+      "kind": "punct",
+      "hershey_sources": [
+        215,
+        715,
+        1215,
+        2215,
+        2715,
+        2765,
+        3215,
+        3265,
+        3715
+      ]
+    },
+    {
+      "label": "@",
+      "hwrt_ids": [],
+      "hershey": "@",
+      "group": "glyph_u0040",
+      "kind": "punct",
+      "hershey_sources": [
+        1273,
+        2273
+      ]
+    },
+    {
+      "label": "A",
+      "hwrt_ids": [
+        31
+      ],
+      "hershey": "A",
+      "group": "glyph_u0041",
+      "kind": "upper",
+      "hershey_sources": [
+        1,
+        501,
+        551,
+        1001,
+        1051,
+        2001,
+        2051,
+        2501,
+        2551,
+        3001,
+        3051,
+        3301,
+        3501,
+        3801
+      ]
+    },
+    {
+      "label": "B",
+      "hwrt_ids": [
+        32
+      ],
+      "hershey": "B",
+      "group": "glyph_u0042",
+      "kind": "upper",
+      "hershey_sources": [
+        2,
+        502,
+        552,
+        1002,
+        1052,
+        2002,
+        2052,
+        2502,
+        2552,
+        3002,
+        3052,
+        3302,
+        3502,
+        3802
+      ]
+    },
+    {
+      "label": "C",
+      "hwrt_ids": [
+        33
+      ],
+      "hershey": "C",
+      "group": "ambig_case_c",
+      "kind": "upper",
+      "hershey_sources": [
+        3,
+        503,
+        553,
+        1003,
+        1053,
+        2003,
+        2053,
+        2503,
+        2553,
+        3003,
+        3053,
+        3303,
+        3503,
+        3803
+      ]
+    },
+    {
+      "label": "D",
+      "hwrt_ids": [
+        34
+      ],
+      "hershey": "D",
+      "group": "glyph_u0044",
+      "kind": "upper",
+      "hershey_sources": [
+        4,
+        504,
+        554,
+        1004,
+        1054,
+        2004,
+        2054,
+        2504,
+        2554,
+        3004,
+        3054,
+        3304,
+        3504,
+        3804
+      ]
+    },
+    {
+      "label": "E",
+      "hwrt_ids": [
+        35
+      ],
+      "hershey": "E",
+      "group": "glyph_u0045",
+      "kind": "upper",
+      "hershey_sources": [
+        5,
+        505,
+        555,
+        1005,
+        1055,
+        2005,
+        2055,
+        2505,
+        2555,
+        3005,
+        3055,
+        3305,
+        3505,
+        3805
+      ]
+    },
+    {
+      "label": "F",
+      "hwrt_ids": [
+        36
+      ],
+      "hershey": "F",
+      "group": "glyph_u0046",
+      "kind": "upper",
+      "hershey_sources": [
+        6,
+        506,
+        556,
+        1006,
+        1056,
+        2006,
+        2056,
+        2506,
+        2556,
+        3006,
+        3056,
+        3306,
+        3506,
+        3806
+      ]
+    },
+    {
+      "label": "G",
+      "hwrt_ids": [
+        37
+      ],
+      "hershey": "G",
+      "group": "glyph_u0047",
+      "kind": "upper",
+      "hershey_sources": [
+        7,
+        507,
+        557,
+        1007,
+        1057,
+        2007,
+        2057,
+        2507,
+        2557,
+        3007,
+        3057,
+        3307,
+        3507,
+        3807
+      ]
+    },
+    {
+      "label": "H",
+      "hwrt_ids": [
+        38
+      ],
+      "hershey": "H",
+      "group": "glyph_u0048",
+      "kind": "upper",
+      "hershey_sources": [
+        8,
+        508,
+        558,
+        1008,
+        1058,
+        2008,
+        2058,
+        2508,
+        2558,
+        3008,
+        3058,
+        3308,
+        3508,
+        3808
+      ]
+    },
+    {
+      "label": "I",
+      "hwrt_ids": [
+        39
+      ],
+      "hershey": "I",
+      "group": "ambig_one_bar",
+      "kind": "upper",
+      "hershey_sources": [
+        9,
+        509,
+        559,
+        1009,
+        1059,
+        2009,
+        2059,
+        2509,
+        2559,
+        3009,
+        3059,
+        3309,
+        3509,
+        3809
+      ]
+    },
+    {
+      "label": "J",
+      "hwrt_ids": [
+        40
+      ],
+      "hershey": "J",
+      "group": "glyph_u004A",
+      "kind": "upper",
+      "hershey_sources": [
+        10,
+        510,
+        560,
+        1010,
+        1060,
+        2010,
+        2060,
+        2510,
+        2560,
+        3010,
+        3060,
+        3310,
+        3510,
+        3810
+      ]
+    },
+    {
+      "label": "K",
+      "hwrt_ids": [
+        41
+      ],
+      "hershey": "K",
+      "group": "ambig_case_k",
+      "kind": "upper",
+      "hershey_sources": [
+        11,
+        511,
+        561,
+        1011,
+        1061,
+        2011,
+        2061,
+        2511,
+        2561,
+        3011,
+        3061,
+        3311,
+        3511,
+        3811
+      ]
+    },
+    {
+      "label": "L",
+      "hwrt_ids": [
+        42
+      ],
+      "hershey": "L",
+      "group": "glyph_u004C",
+      "kind": "upper",
+      "hershey_sources": [
+        12,
+        512,
+        562,
+        1012,
+        1062,
+        2012,
+        2062,
+        2512,
+        2562,
+        3012,
+        3062,
+        3312,
+        3512,
+        3812
+      ]
+    },
+    {
+      "label": "M",
+      "hwrt_ids": [
+        43
+      ],
+      "hershey": "M",
+      "group": "glyph_u004D",
+      "kind": "upper",
+      "hershey_sources": [
+        13,
+        513,
+        563,
+        1013,
+        1063,
+        2013,
+        2063,
+        2513,
+        2563,
+        3013,
+        3063,
+        3313,
+        3513,
+        3813
+      ]
+    },
+    {
+      "label": "N",
+      "hwrt_ids": [
+        44
+      ],
+      "hershey": "N",
+      "group": "glyph_u004E",
+      "kind": "upper",
+      "hershey_sources": [
+        14,
+        514,
+        564,
+        1014,
+        1064,
+        2014,
+        2064,
+        2514,
+        2564,
+        3014,
+        3064,
+        3314,
+        3514,
+        3814
+      ]
+    },
+    {
+      "label": "O",
+      "hwrt_ids": [
+        45
+      ],
+      "hershey": "O",
+      "group": "ambig_circle",
+      "kind": "upper",
+      "hershey_sources": [
+        15,
+        515,
+        565,
+        1015,
+        1065,
+        2015,
+        2065,
+        2515,
+        2565,
+        3015,
+        3065,
+        3315,
+        3515,
+        3815
+      ]
+    },
+    {
+      "label": "P",
+      "hwrt_ids": [
+        46
+      ],
+      "hershey": "P",
+      "group": "ambig_case_p",
+      "kind": "upper",
+      "hershey_sources": [
+        16,
+        516,
+        566,
+        1016,
+        1066,
+        2016,
+        2066,
+        2516,
+        2566,
+        3016,
+        3066,
+        3316,
+        3516,
+        3816
+      ]
+    },
+    {
+      "label": "Q",
+      "hwrt_ids": [
+        47
+      ],
+      "hershey": "Q",
+      "group": "glyph_u0051",
+      "kind": "upper",
+      "hershey_sources": [
+        17,
+        517,
+        567,
+        1017,
+        1067,
+        2017,
+        2067,
+        2517,
+        2567,
+        3017,
+        3067,
+        3317,
+        3517,
+        3817
+      ]
+    },
+    {
+      "label": "R",
+      "hwrt_ids": [
+        48
+      ],
+      "hershey": "R",
+      "group": "glyph_u0052",
+      "kind": "upper",
+      "hershey_sources": [
+        18,
+        518,
+        568,
+        1018,
+        1068,
+        2018,
+        2068,
+        2518,
+        2568,
+        3018,
+        3068,
+        3318,
+        3518,
+        3818
+      ]
+    },
+    {
+      "label": "S",
+      "hwrt_ids": [
+        49
+      ],
+      "hershey": "S",
+      "group": "ambig_case_s",
+      "kind": "upper",
+      "hershey_sources": [
+        19,
+        519,
+        569,
+        1019,
+        1069,
+        2019,
+        2069,
+        2519,
+        2569,
+        3019,
+        3069,
+        3319,
+        3519,
+        3819
+      ]
+    },
+    {
+      "label": "T",
+      "hwrt_ids": [
+        50
+      ],
+      "hershey": "T",
+      "group": "glyph_u0054",
+      "kind": "upper",
+      "hershey_sources": [
+        20,
+        520,
+        570,
+        1020,
+        1070,
+        2020,
+        2070,
+        2520,
+        2570,
+        3020,
+        3070,
+        3320,
+        3520,
+        3820
+      ]
+    },
+    {
+      "label": "U",
+      "hwrt_ids": [
+        51
+      ],
+      "hershey": "U",
+      "group": "ambig_case_u",
+      "kind": "upper",
+      "hershey_sources": [
+        21,
+        521,
+        571,
+        1021,
+        1071,
+        2021,
+        2071,
+        2521,
+        2571,
+        3021,
+        3071,
+        3321,
+        3521,
+        3821
+      ]
+    },
+    {
+      "label": "V",
+      "hwrt_ids": [
+        52
+      ],
+      "hershey": "V",
+      "group": "ambig_case_v",
+      "kind": "upper",
+      "hershey_sources": [
+        22,
+        522,
+        572,
+        1022,
+        1072,
+        2022,
+        2072,
+        2522,
+        2572,
+        3022,
+        3072,
+        3322,
+        3522,
+        3822
+      ]
+    },
+    {
+      "label": "W",
+      "hwrt_ids": [
+        53
+      ],
+      "hershey": "W",
+      "group": "ambig_case_w",
+      "kind": "upper",
+      "hershey_sources": [
+        23,
+        523,
+        573,
+        1023,
+        1073,
+        2023,
+        2073,
+        2523,
+        2573,
+        3023,
+        3073,
+        3323,
+        3523,
+        3823
+      ]
+    },
+    {
+      "label": "X",
+      "hwrt_ids": [
+        54
+      ],
+      "hershey": "X",
+      "group": "ambig_x_times",
+      "kind": "upper",
+      "hershey_sources": [
+        24,
+        524,
+        574,
+        1024,
+        1074,
+        2024,
+        2074,
+        2524,
+        2574,
+        3024,
+        3074,
+        3324,
+        3524,
+        3824
+      ]
+    },
+    {
+      "label": "Y",
+      "hwrt_ids": [
+        55
+      ],
+      "hershey": "Y",
+      "group": "ambig_case_y",
+      "kind": "upper",
+      "hershey_sources": [
+        25,
+        525,
+        575,
+        1025,
+        1075,
+        2025,
+        2075,
+        2525,
+        2575,
+        3025,
+        3075,
+        3325,
+        3525,
+        3825
+      ]
+    },
+    {
+      "label": "Z",
+      "hwrt_ids": [
+        56
+      ],
+      "hershey": "Z",
+      "group": "ambig_case_z",
+      "kind": "upper",
+      "hershey_sources": [
+        26,
+        526,
+        576,
+        1026,
+        1076,
+        2026,
+        2076,
+        2526,
+        2576,
+        3026,
+        3076,
+        3326,
+        3526,
+        3826
+      ]
+    },
+    {
+      "label": "[",
+      "hwrt_ids": [
+        918
+      ],
+      "hershey": "[",
+      "group": "glyph_u005B",
+      "kind": "punct",
+      "hershey_sources": [
+        1223,
+        1405,
+        2223,
+        2405
+      ]
+    },
+    {
+      "label": "\\",
+      "hwrt_ids": [
+        949
+      ],
+      "hershey": "\\",
+      "group": "glyph_u005C",
+      "kind": "punct",
+      "hershey_sources": [
+        804
+      ]
+    },
+    {
+      "label": "]",
+      "hwrt_ids": [
+        919
+      ],
+      "hershey": "]",
+      "group": "glyph_u005D",
+      "kind": "punct",
+      "hershey_sources": [
+        1224,
+        1406,
+        2224,
+        2406
+      ]
+    },
+    {
+      "label": "^",
+      "hwrt_ids": [],
+      "hershey": "^",
+      "group": "glyph_u005E",
+      "kind": "raised",
+      "hershey_sources": []
+    },
+    {
+      "label": "_",
+      "hwrt_ids": [],
+      "hershey": "_",
+      "group": "ambig_dash",
+      "kind": "low",
+      "hershey_sources": [
+        999
+      ]
+    },
+    {
+      "label": "a",
+      "hwrt_ids": [
+        90
+      ],
+      "hershey": "a",
+      "group": "glyph_u0061",
+      "kind": "lower",
+      "hershey_sources": [
+        601,
+        651,
+        1101,
+        1151,
+        2101,
+        2151,
+        2601,
+        2651,
+        3101,
+        3151,
+        3401,
+        3601,
+        3901
+      ]
+    },
+    {
+      "label": "b",
+      "hwrt_ids": [
+        91
+      ],
+      "hershey": "b",
+      "group": "glyph_u0062",
+      "kind": "lower",
+      "hershey_sources": [
+        602,
+        652,
+        1102,
+        1152,
+        2102,
+        2152,
+        2602,
+        2652,
+        3102,
+        3152,
+        3402,
+        3602,
+        3902
+      ]
+    },
+    {
+      "label": "c",
+      "hwrt_ids": [
+        92
+      ],
+      "hershey": "c",
+      "group": "ambig_case_c",
+      "kind": "lower",
+      "hershey_sources": [
+        603,
+        653,
+        1103,
+        1153,
+        2103,
+        2153,
+        2603,
+        2653,
+        3103,
+        3153,
+        3403,
+        3603,
+        3903
+      ]
+    },
+    {
+      "label": "d",
+      "hwrt_ids": [
+        93
+      ],
+      "hershey": "d",
+      "group": "glyph_u0064",
+      "kind": "lower",
+      "hershey_sources": [
+        604,
+        654,
+        1104,
+        1154,
+        2104,
+        2154,
+        2604,
+        2654,
+        3104,
+        3154,
+        3404,
+        3604,
+        3904
+      ]
+    },
+    {
+      "label": "e",
+      "hwrt_ids": [
+        94
+      ],
+      "hershey": "e",
+      "group": "glyph_u0065",
+      "kind": "lower",
+      "hershey_sources": [
+        605,
+        655,
+        1105,
+        1155,
+        2105,
+        2155,
+        2605,
+        2655,
+        3105,
+        3155,
+        3405,
+        3605,
+        3905
+      ]
+    },
+    {
+      "label": "f",
+      "hwrt_ids": [
+        95
+      ],
+      "hershey": "f",
+      "group": "glyph_u0066",
+      "kind": "lower",
+      "hershey_sources": [
+        606,
+        656,
+        1106,
+        1156,
+        2106,
+        2156,
+        2606,
+        2656,
+        3106,
+        3156,
+        3406,
+        3606,
+        3906
+      ]
+    },
+    {
+      "label": "g",
+      "hwrt_ids": [
+        96
+      ],
+      "hershey": "g",
+      "group": "glyph_u0067",
+      "kind": "lower",
+      "hershey_sources": [
+        607,
+        657,
+        1107,
+        1157,
+        2107,
+        2157,
+        2607,
+        2657,
+        3107,
+        3157,
+        3407,
+        3607,
+        3907
+      ]
+    },
+    {
+      "label": "h",
+      "hwrt_ids": [
+        97
+      ],
+      "hershey": "h",
+      "group": "glyph_u0068",
+      "kind": "lower",
+      "hershey_sources": [
+        608,
+        658,
+        1108,
+        1158,
+        2108,
+        2158,
+        2608,
+        2658,
+        3108,
+        3158,
+        3408,
+        3608,
+        3908
+      ]
+    },
+    {
+      "label": "i",
+      "hwrt_ids": [
+        98
+      ],
+      "hershey": "i",
+      "group": "glyph_u0069",
+      "kind": "lower",
+      "hershey_sources": [
+        609,
+        659,
+        1109,
+        1159,
+        2109,
+        2159,
+        2609,
+        2659,
+        3109,
+        3159,
+        3409,
+        3609,
+        3909
+      ]
+    },
+    {
+      "label": "j",
+      "hwrt_ids": [
+        99
+      ],
+      "hershey": "j",
+      "group": "glyph_u006A",
+      "kind": "lower",
+      "hershey_sources": [
+        610,
+        660,
+        1110,
+        1160,
+        2110,
+        2160,
+        2610,
+        2660,
+        3110,
+        3160,
+        3410,
+        3610,
+        3910
+      ]
+    },
+    {
+      "label": "k",
+      "hwrt_ids": [
+        100
+      ],
+      "hershey": "k",
+      "group": "ambig_case_k",
+      "kind": "lower",
+      "hershey_sources": [
+        611,
+        661,
+        1111,
+        1161,
+        2111,
+        2161,
+        2611,
+        2661,
+        3111,
+        3161,
+        3411,
+        3611,
+        3911
+      ]
+    },
+    {
+      "label": "l",
+      "hwrt_ids": [
+        101
+      ],
+      "hershey": "l",
+      "group": "ambig_one_bar",
+      "kind": "lower",
+      "hershey_sources": [
+        612,
+        662,
+        677,
+        1112,
+        1162,
+        2112,
+        2162,
+        2612,
+        2662,
+        3112,
+        3162,
+        3412,
+        3612,
+        3912
+      ]
+    },
+    {
+      "label": "m",
+      "hwrt_ids": [
+        102
+      ],
+      "hershey": "m",
+      "group": "glyph_u006D",
+      "kind": "lower",
+      "hershey_sources": [
+        613,
+        663,
+        1113,
+        1163,
+        2113,
+        2163,
+        2613,
+        2663,
+        3113,
+        3163,
+        3413,
+        3613,
+        3913
+      ]
+    },
+    {
+      "label": "n",
+      "hwrt_ids": [
+        103
+      ],
+      "hershey": "n",
+      "group": "glyph_u006E",
+      "kind": "lower",
+      "hershey_sources": [
+        614,
+        664,
+        1114,
+        1164,
+        2114,
+        2164,
+        2614,
+        2664,
+        3114,
+        3164,
+        3414,
+        3614,
+        3914
+      ]
+    },
+    {
+      "label": "o",
+      "hwrt_ids": [
+        104
+      ],
+      "hershey": "o",
+      "group": "ambig_circle",
+      "kind": "lower",
+      "hershey_sources": [
+        615,
+        665,
+        1115,
+        1165,
+        2115,
+        2165,
+        2615,
+        2665,
+        3115,
+        3165,
+        3415,
+        3615,
+        3915
+      ]
+    },
+    {
+      "label": "p",
+      "hwrt_ids": [
+        105
+      ],
+      "hershey": "p",
+      "group": "ambig_case_p",
+      "kind": "lower",
+      "hershey_sources": [
+        616,
+        666,
+        1116,
+        1166,
+        2116,
+        2166,
+        2616,
+        2666,
+        3116,
+        3166,
+        3416,
+        3616,
+        3916
+      ]
+    },
+    {
+      "label": "q",
+      "hwrt_ids": [
+        106
+      ],
+      "hershey": "q",
+      "group": "glyph_u0071",
+      "kind": "lower",
+      "hershey_sources": [
+        617,
+        667,
+        1117,
+        1167,
+        2117,
+        2167,
+        2617,
+        2667,
+        3117,
+        3167,
+        3417,
+        3617,
+        3917
+      ]
+    },
+    {
+      "label": "r",
+      "hwrt_ids": [
+        107
+      ],
+      "hershey": "r",
+      "group": "glyph_u0072",
+      "kind": "lower",
+      "hershey_sources": [
+        618,
+        668,
+        1118,
+        1168,
+        2118,
+        2168,
+        2618,
+        2668,
+        3118,
+        3168,
+        3418,
+        3618,
+        3918
+      ]
+    },
+    {
+      "label": "s",
+      "hwrt_ids": [
+        108
+      ],
+      "hershey": "s",
+      "group": "ambig_case_s",
+      "kind": "lower",
+      "hershey_sources": [
+        619,
+        669,
+        1119,
+        1169,
+        2119,
+        2169,
+        2619,
+        2669,
+        3119,
+        3169,
+        3419,
+        3427,
+        3619,
+        3919
+      ]
+    },
+    {
+      "label": "t",
+      "hwrt_ids": [],
+      "hershey": "t",
+      "group": "glyph_u0074",
+      "kind": "lower",
+      "hershey_sources": [
+        620,
+        670,
+        1120,
+        1170,
+        2120,
+        2170,
+        2620,
+        2670,
+        3120,
+        3170,
+        3420,
+        3620,
+        3920
+      ]
+    },
+    {
+      "label": "u",
+      "hwrt_ids": [
+        110
+      ],
+      "hershey": "u",
+      "group": "ambig_case_u",
+      "kind": "lower",
+      "hershey_sources": [
+        621,
+        671,
+        1121,
+        1171,
+        2121,
+        2171,
+        2621,
+        2671,
+        3121,
+        3171,
+        3421,
+        3621,
+        3921
+      ]
+    },
+    {
+      "label": "v",
+      "hwrt_ids": [
+        111
+      ],
+      "hershey": "v",
+      "group": "ambig_case_v",
+      "kind": "lower",
+      "hershey_sources": [
+        622,
+        672,
+        1122,
+        1172,
+        2122,
+        2172,
+        2622,
+        2672,
+        3122,
+        3172,
+        3422,
+        3622,
+        3922
+      ]
+    },
+    {
+      "label": "w",
+      "hwrt_ids": [
+        112
+      ],
+      "hershey": "w",
+      "group": "ambig_case_w",
+      "kind": "lower",
+      "hershey_sources": [
+        623,
+        673,
+        1123,
+        1173,
+        2123,
+        2173,
+        2623,
+        2673,
+        3123,
+        3173,
+        3423,
+        3623,
+        3923
+      ]
+    },
+    {
+      "label": "x",
+      "hwrt_ids": [
+        113
+      ],
+      "hershey": "x",
+      "group": "ambig_x_times",
+      "kind": "lower",
+      "hershey_sources": [
+        624,
+        674,
+        1124,
+        1174,
+        2124,
+        2174,
+        2624,
+        2674,
+        3124,
+        3174,
+        3424,
+        3624,
+        3924
+      ]
+    },
+    {
+      "label": "y",
+      "hwrt_ids": [
+        114
+      ],
+      "hershey": "y",
+      "group": "ambig_case_y",
+      "kind": "lower",
+      "hershey_sources": [
+        625,
+        675,
+        1125,
+        1175,
+        2125,
+        2175,
+        2625,
+        2675,
+        3125,
+        3175,
+        3425,
+        3625,
+        3925
+      ]
+    },
+    {
+      "label": "z",
+      "hwrt_ids": [
+        115
+      ],
+      "hershey": "z",
+      "group": "ambig_case_z",
+      "kind": "lower",
+      "hershey_sources": [
+        626,
+        676,
+        1126,
+        1176,
+        2126,
+        2176,
+        2626,
+        2676,
+        3126,
+        3176,
+        3426,
+        3626,
+        3926
+      ]
+    },
+    {
+      "label": "{",
+      "hwrt_ids": [
+        257
+      ],
+      "hershey": "{",
+      "group": "glyph_u007B",
+      "kind": "punct",
+      "hershey_sources": [
+        1225,
+        1407,
+        2225,
+        2407
+      ]
+    },
+    {
+      "label": "|",
+      "hwrt_ids": [
+        920
+      ],
+      "hershey": "|",
+      "group": "ambig_one_bar",
+      "kind": "punct",
+      "hershey_sources": [
+        223,
+        723,
+        1229,
+        2229
+      ]
+    },
+    {
+      "label": "}",
+      "hwrt_ids": [
+        261
+      ],
+      "hershey": "}",
+      "group": "glyph_u007D",
+      "kind": "punct",
+      "hershey_sources": [
+        1226,
+        1408,
+        2226,
+        2408
+      ]
+    },
+    {
+      "label": "~",
+      "hwrt_ids": [],
+      "hershey": "~",
+      "group": "glyph_u007E",
+      "kind": "raised",
+      "hershey_sources": [
+        2246
+      ]
+    },
+    {
+      "label": "¬",
+      "hwrt_ids": [
+        958
+      ],
+      "hershey": "¬",
+      "group": "glyph_u00AC",
+      "kind": "operator",
+      "hershey_sources": []
+    },
+    {
+      "label": "°",
+      "hwrt_ids": [
+        1102
+      ],
+      "hershey": "°",
+      "group": "ambig_circle",
+      "kind": "operator",
+      "hershey_sources": [
+        218,
+        718,
+        1218,
+        2218,
+        2729,
+        2779,
+        3229,
+        3279,
+        3729
+      ]
+    },
+    {
+      "label": "±",
+      "hwrt_ids": [
+        524
+      ],
+      "hershey": "±",
+      "group": "glyph_u00B1",
+      "kind": "operator",
+      "hershey_sources": [
+        1233,
+        2233
+      ]
+    },
+    {
+      "label": "·",
+      "hwrt_ids": [
+        184
+      ],
+      "hershey": "·",
+      "group": "ambig_circle",
+      "kind": "operator",
+      "hershey_sources": [
+        229,
+        729
+      ]
+    },
+    {
+      "label": "×",
+      "hwrt_ids": [
+        513
+      ],
+      "hershey": "×",
+      "group": "ambig_x_times",
+      "kind": "operator",
+      "hershey_sources": [
+        227,
+        727,
+        1235,
+        2235
+      ]
+    },
+    {
+      "label": "÷",
+      "hwrt_ids": [
+        526
+      ],
+      "hershey": "÷",
+      "group": "glyph_u00F7",
+      "kind": "operator",
+      "hershey_sources": [
+        1237,
+        2237
+      ]
+    },
+    {
+      "label": "Γ",
+      "hwrt_ids": [
+        150
+      ],
+      "hershey": "Γ",
+      "group": "glyph_u0393",
+      "kind": "upper",
+      "hershey_sources": [
+        29,
+        529,
+        1029,
+        2029
+      ]
+    },
+    {
+      "label": "Δ",
+      "hwrt_ids": [
+        152
+      ],
+      "hershey": "Δ",
+      "group": "glyph_u0394",
+      "kind": "upper",
+      "hershey_sources": [
+        30,
+        530,
+        1030,
+        2030
+      ]
+    },
+    {
+      "label": "Θ",
+      "hwrt_ids": [
+        156
+      ],
+      "hershey": "Θ",
+      "group": "glyph_u0398",
+      "kind": "upper",
+      "hershey_sources": [
+        34,
+        534,
+        1034,
+        2034
+      ]
+    },
+    {
+      "label": "Λ",
+      "hwrt_ids": [
+        163
+      ],
+      "hershey": "Λ",
+      "group": "glyph_u039B",
+      "kind": "upper",
+      "hershey_sources": [
+        37,
+        537,
+        1037,
+        2037
+      ]
+    },
+    {
+      "label": "Π",
+      "hwrt_ids": [
+        168
+      ],
+      "hershey": "Π",
+      "group": "ambig_pi_product",
+      "kind": "upper",
+      "hershey_sources": [
+        42,
+        542,
+        1042,
+        1401,
+        2042,
+        2401
+      ]
+    },
+    {
+      "label": "Σ",
+      "hwrt_ids": [
+        116
+      ],
+      "hershey": "Σ",
+      "group": "ambig_sigma_sum",
+      "kind": "upper",
+      "hershey_sources": [
+        44,
+        544,
+        1044,
+        1402,
+        2044,
+        2402
+      ]
+    },
+    {
+      "label": "Φ",
+      "hwrt_ids": [
+        175
+      ],
+      "hershey": "Φ",
+      "group": "glyph_u03A6",
+      "kind": "upper",
+      "hershey_sources": [
+        47,
+        547,
+        1047,
+        2047
+      ]
+    },
+    {
+      "label": "Ω",
+      "hwrt_ids": [
+        181
+      ],
+      "hershey": "Ω",
+      "group": "glyph_u03A9",
+      "kind": "upper",
+      "hershey_sources": [
+        50,
+        550,
+        1050,
+        2050
+      ]
+    },
+    {
+      "label": "α",
+      "hwrt_ids": [
+        82
+      ],
+      "hershey": "α",
+      "group": "glyph_u03B1",
+      "kind": "lower",
+      "hershey_sources": [
+        627,
+        1127,
+        2127
+      ]
+    },
+    {
+      "label": "β",
+      "hwrt_ids": [
+        87
+      ],
+      "hershey": "β",
+      "group": "glyph_u03B2",
+      "kind": "lower",
+      "hershey_sources": [
+        628,
+        1128,
+        2128
+      ]
+    },
+    {
+      "label": "γ",
+      "hwrt_ids": [
+        117
+      ],
+      "hershey": "γ",
+      "group": "glyph_u03B3",
+      "kind": "lower",
+      "hershey_sources": [
+        629,
+        1129,
+        2129
+      ]
+    },
+    {
+      "label": "δ",
+      "hwrt_ids": [
+        151
+      ],
+      "hershey": "δ",
+      "group": "glyph_u03B4",
+      "kind": "lower",
+      "hershey_sources": [
+        630,
+        1130,
+        2130
+      ]
+    },
+    {
+      "label": "ε",
+      "hwrt_ids": [
+        157
+      ],
+      "hershey": "ε",
+      "group": "ambig_epsilon_in",
+      "kind": "lower",
+      "hershey_sources": [
+        631,
+        1131,
+        2131
+      ]
+    },
+    {
+      "label": "θ",
+      "hwrt_ids": [
+        155
+      ],
+      "hershey": "θ",
+      "group": "glyph_u03B8",
+      "kind": "lower",
+      "hershey_sources": [
+        685,
+        1185,
+        2185
+      ]
+    },
+    {
+      "label": "λ",
+      "hwrt_ids": [
+        162
+      ],
+      "hershey": "λ",
+      "group": "glyph_u03BB",
+      "kind": "lower",
+      "hershey_sources": [
+        637,
+        1137,
+        2137
+      ]
+    },
+    {
+      "label": "μ",
+      "hwrt_ids": [
+        164
+      ],
+      "hershey": "μ",
+      "group": "glyph_u03BC",
+      "kind": "lower",
+      "hershey_sources": [
+        638,
+        1138,
+        2138
+      ]
+    },
+    {
+      "label": "π",
+      "hwrt_ids": [
+        81
+      ],
+      "hershey": "π",
+      "group": "glyph_u03C0",
+      "kind": "lower",
+      "hershey_sources": [
+        642,
+        1142,
+        2142
+      ]
+    },
+    {
+      "label": "ρ",
+      "hwrt_ids": [
+        169
+      ],
+      "hershey": "ρ",
+      "group": "glyph_u03C1",
+      "kind": "lower",
+      "hershey_sources": [
+        643,
+        1143,
+        2143
+      ]
+    },
+    {
+      "label": "σ",
+      "hwrt_ids": [
+        89
+      ],
+      "hershey": "σ",
+      "group": "glyph_u03C3",
+      "kind": "lower",
+      "hershey_sources": [
+        644,
+        1144,
+        2144
+      ]
+    },
+    {
+      "label": "τ",
+      "hwrt_ids": [
+        171
+      ],
+      "hershey": "τ",
+      "group": "glyph_u03C4",
+      "kind": "lower",
+      "hershey_sources": [
+        645,
+        1145,
+        2145
+      ]
+    },
+    {
+      "label": "φ",
+      "hwrt_ids": [
+        174
+      ],
+      "hershey": "φ",
+      "group": "glyph_u03C6",
+      "kind": "lower",
+      "hershey_sources": [
+        686,
+        1186,
+        2186
+      ]
+    },
+    {
+      "label": "χ",
+      "hwrt_ids": [
+        177
+      ],
+      "hershey": "χ",
+      "group": "glyph_u03C7",
+      "kind": "lower",
+      "hershey_sources": [
+        648,
+        1148,
+        2148
+      ]
+    },
+    {
+      "label": "ψ",
+      "hwrt_ids": [
+        178
+      ],
+      "hershey": "ψ",
+      "group": "glyph_u03C8",
+      "kind": "lower",
+      "hershey_sources": [
+        649,
+        1149,
+        2149
+      ]
+    },
+    {
+      "label": "ω",
+      "hwrt_ids": [
+        180
+      ],
+      "hershey": "ω",
+      "group": "glyph_u03C9",
+      "kind": "lower",
+      "hershey_sources": [
+        650,
+        1150,
+        2150
+      ]
+    },
+    {
+      "label": "—",
+      "hwrt_ids": [
+        195
+      ],
+      "hershey": "—",
+      "group": "ambig_dash",
+      "kind": "punct",
+      "hershey_sources": []
+    },
+    {
+      "label": "′",
+      "hwrt_ids": [
+        945
+      ],
+      "hershey": "′",
+      "group": "glyph_u2032",
+      "kind": "operator",
+      "hershey_sources": [
+        216,
+        716,
+        1216,
+        2216,
+        2727,
+        2777,
+        3227,
+        3277,
+        3727
+      ]
+    },
+    {
+      "label": "←",
+      "hwrt_ids": [
+        761
+      ],
+      "hershey": "←",
+      "group": "glyph_u2190",
+      "kind": "operator",
+      "hershey_sources": [
+        1263,
+        2263
+      ]
+    },
+    {
+      "label": "→",
+      "hwrt_ids": [
+        59
+      ],
+      "hershey": "→",
+      "group": "glyph_u2192",
+      "kind": "operator",
+      "hershey_sources": [
+        232,
+        732,
+        1261,
+        2261
+      ]
+    },
+    {
+      "label": "↔",
+      "hwrt_ids": [
+        770
+      ],
+      "hershey": "↔",
+      "group": "glyph_u2194",
+      "kind": "operator",
+      "hershey_sources": []
+    },
+    {
+      "label": "⇒",
+      "hwrt_ids": [
+        753
+      ],
+      "hershey": "⇒",
+      "group": "glyph_u21D2",
+      "kind": "operator",
+      "hershey_sources": []
+    },
+    {
+      "label": "⇔",
+      "hwrt_ids": [
+        767
+      ],
+      "hershey": "⇔",
+      "group": "glyph_u21D4",
+      "kind": "operator",
+      "hershey_sources": []
+    },
+    {
+      "label": "∀",
+      "hwrt_ids": [
+        882
+      ],
+      "hershey": "∀",
+      "group": "glyph_u2200",
+      "kind": "operator",
+      "hershey_sources": []
+    },
+    {
+      "label": "∂",
+      "hwrt_ids": [
+        182
+      ],
+      "hershey": "∂",
+      "group": "glyph_u2202",
+      "kind": "operator",
+      "hershey_sources": [
+        683,
+        1265,
+        2265
+      ]
+    },
+    {
+      "label": "∃",
+      "hwrt_ids": [
+        891
+      ],
+      "hershey": "∃",
+      "group": "glyph_u2203",
+      "kind": "operator",
+      "hershey_sources": [
+        1279,
+        2279
+      ]
+    },
+    {
+      "label": "∅",
+      "hwrt_ids": [
+        950,
+        974
+      ],
+      "hershey": "∅",
+      "group": "glyph_u2205",
+      "kind": "operator",
+      "hershey_sources": []
+    },
+    {
+      "label": "∇",
+      "hwrt_ids": [
+        951
+      ],
+      "hershey": "∇",
+      "group": "glyph_u2207",
+      "kind": "operator",
+      "hershey_sources": [
+        583,
+        1266,
+        2266
+      ]
+    },
+    {
+      "label": "∈",
+      "hwrt_ids": [
+        888
+      ],
+      "hershey": "∈",
+      "group": "ambig_epsilon_in",
+      "kind": "operator",
+      "hershey_sources": [
+        1260,
+        2260
+      ]
+    },
+    {
+      "label": "∉",
+      "hwrt_ids": [
+        889
+      ],
+      "hershey": "∉",
+      "group": "glyph_u2209",
+      "kind": "operator",
+      "hershey_sources": []
+    },
+    {
+      "label": "∏",
+      "hwrt_ids": [
+        574
+      ],
+      "hershey": "∏",
+      "group": "ambig_pi_product",
+      "kind": "operator",
+      "hershey_sources": [
+        1401,
+        2401
+      ]
+    },
+    {
+      "label": "∑",
+      "hwrt_ids": [
+        88
+      ],
+      "hershey": "∑",
+      "group": "ambig_sigma_sum",
+      "kind": "operator",
+      "hershey_sources": [
+        1402,
+        2402
+      ]
+    },
+    {
+      "label": "−",
+      "hwrt_ids": [
+        195
+      ],
+      "hershey": "−",
+      "group": "ambig_dash",
+      "kind": "operator",
+      "hershey_sources": [
+        1231,
+        2231
+      ]
+    },
+    {
+      "label": "∘",
+      "hwrt_ids": [
+        537
+      ],
+      "hershey": "∘",
+      "group": "ambig_circle",
+      "kind": "operator",
+      "hershey_sources": []
+    },
+    {
+      "label": "√",
+      "hwrt_ids": [
+        960
+      ],
+      "hershey": "√",
+      "group": "glyph_u221A",
+      "kind": "operator",
+      "hershey_sources": [
+        1267,
+        1411,
+        2255,
+        2267,
+        2411
+      ]
+    },
+    {
+      "label": "∝",
+      "hwrt_ids": [
+        194,
+        644
+      ],
+      "hershey": "∝",
+      "group": "glyph_u221D",
+      "kind": "operator",
+      "hershey_sources": [
+        1245,
+        2245
+      ]
+    },
+    {
+      "label": "∞",
+      "hwrt_ids": [
+        944
+      ],
+      "hershey": "∞",
+      "group": "glyph_u221E",
+      "kind": "operator",
+      "hershey_sources": [
+        1270,
+        2270
+      ]
+    },
+    {
+      "label": "∠",
+      "hwrt_ids": [
+        946
+      ],
+      "hershey": "∠",
+      "group": "glyph_u2220",
+      "kind": "operator",
+      "hershey_sources": [
+        739
+      ]
+    },
+    {
+      "label": "∥",
+      "hwrt_ids": [
+        621,
+        921
+      ],
+      "hershey": "∥",
+      "group": "glyph_u2225",
+      "kind": "operator",
+      "hershey_sources": [
+        737
+      ]
+    },
+    {
+      "label": "∩",
+      "hwrt_ids": [
+        530
+      ],
+      "hershey": "∩",
+      "group": "glyph_u2229",
+      "kind": "operator",
+      "hershey_sources": [
+        1259,
+        2259
+      ]
+    },
+    {
+      "label": "∪",
+      "hwrt_ids": [
+        511
+      ],
+      "hershey": "∪",
+      "group": "glyph_u222A",
+      "kind": "operator",
+      "hershey_sources": [
+        1257,
+        2257
+      ]
+    },
+    {
+      "label": "∫",
+      "hwrt_ids": [
+        183
+      ],
+      "hershey": "∫",
+      "group": "glyph_u222B",
+      "kind": "operator",
+      "hershey_sources": [
+        1268,
+        1412,
+        2268,
+        2412
+      ]
+    },
+    {
+      "label": "∼",
+      "hwrt_ids": [
+        618
+      ],
+      "hershey": "∼",
+      "group": "glyph_u223C",
+      "kind": "operator",
+      "hershey_sources": [
+        1246,
+        2246
+      ]
+    },
+    {
+      "label": "≈",
+      "hwrt_ids": [
+        601
+      ],
+      "hershey": "≈",
+      "group": "glyph_u2248",
+      "kind": "operator",
+      "hershey_sources": []
+    },
+    {
+      "label": "≠",
+      "hwrt_ids": [
+        698
+      ],
+      "hershey": "≠",
+      "group": "glyph_u2260",
+      "kind": "operator",
+      "hershey_sources": [
+        1239,
+        2239
+      ]
+    },
+    {
+      "label": "≡",
+      "hwrt_ids": [
+        603
+      ],
+      "hershey": "≡",
+      "group": "glyph_u2261",
+      "kind": "operator",
+      "hershey_sources": [
+        1240,
+        2240
+      ]
+    },
+    {
+      "label": "≤",
+      "hwrt_ids": [
+        185
+      ],
+      "hershey": "≤",
+      "group": "glyph_u2264",
+      "kind": "operator",
+      "hershey_sources": []
+    },
+    {
+      "label": "≥",
+      "hwrt_ids": [
+        186
+      ],
+      "hershey": "≥",
+      "group": "glyph_u2265",
+      "kind": "operator",
+      "hershey_sources": []
+    },
+    {
+      "label": "⊂",
+      "hwrt_ids": [
+        189
+      ],
+      "hershey": "⊂",
+      "group": "glyph_u2282",
+      "kind": "operator",
+      "hershey_sources": [
+        1256,
+        2256
+      ]
+    },
+    {
+      "label": "⊆",
+      "hwrt_ids": [
+        191
+      ],
+      "hershey": "⊆",
+      "group": "glyph_u2286",
+      "kind": "operator",
+      "hershey_sources": []
+    },
+    {
+      "label": "⊥",
+      "hwrt_ids": [
+        605
+      ],
+      "hershey": "⊥",
+      "group": "glyph_u22A5",
+      "kind": "operator",
+      "hershey_sources": []
+    }
+  ]
+}
