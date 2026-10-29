@@ -130,8 +130,6 @@ swift test
 
 Tests cover input modes, coordinate mapping, strokes, selection, text and document layout, persistence, recognition, and equation editing. Some integration tests depend on system recognition APIs or a graphical macOS session.
 
-Latest local validation: the app build succeeds. `swift test` runs 868 tests with 3 skipped and 1 failure: `DocumentLayoutTests.testTopInsetClearsTopBandWithFormattingBarClosed` expects a 38-point top inset but receives 28 points. This layout expectation remains unresolved.
-
 Optional Python tooling for training and validating math models lives in [`scripts/glyphs/`](scripts/glyphs/). It is separate from the normal app build; see the [training guide](scripts/glyphs/TRAINING-v2.md) for setup and data requirements.
 
 ## Status and limitations
