@@ -76,6 +76,50 @@ Input sources → coordinate mapping → stroke processing
 
 For a technical review, the input layer shows how physical touch coordinates become ink; document layout shows how drawings interact with flowing text; persistence shows how edits become saved notes. The math pipeline and its fixtures provide a deeper example of recognition and decoding across Swift and Python tooling.
 
+## How the math model was trained
+
+Scratchpad includes a custom **64-class math glyph classifier**, trained in PyTorch and exported to Core ML for inference on the Mac. Its job is to score possible symbols from a small group of handwritten strokes. General handwriting-to-text in Scribe uses Apple's PencilKit recognizer separately.
+
+### Data and training
+
+The bundled model's training metadata records data from **MathWriting, CROHME, and HWRT**, including symbols extracted from handwritten expressions, plus synthetic strokes generated from Hershey and Relief SingleLine glyphs. Synthetic examples supplement classes with limited real handwriting; sampling balances the classes during training.
+
+Each example gives the network three views of the same ink:
+
+| Input | What it contributes |
+| --- | --- |
+| A normalized **32 × 32 grayscale image** | The overall shape, processed by a small 2D convolutional network |
+| A **128 × 4 pen-path sequence** | How the strokes were drawn, processed by a 1D convolutional network |
+| **Stroke count and aspect ratio** | Geometry that helps distinguish similar shapes |
+
+The image and path features are combined with the geometry inputs in a 256-unit hidden layer, then scored across 64 classes, including a `junk` class for unsupported or malformed ink. Using both shape and pen movement gives the classifier information that a static image alone loses.
+
+Training augments the strokes with rotation, shear, stretching, elastic distortion, and point jitter. It also simulates trackpad sampling, smoothing, and tremor, and sometimes changes stroke direction or order. These variations help bridge the gap between dataset handwriting and input from a Mac trackpad.
+
+The recorded training configuration uses **AdamW**, a learning rate of `0.001`, batches of `512`, label smoothing, and a cosine learning-rate schedule. The bundled checkpoint was selected at **epoch 13** by aggregate top-1 accuracy on CROHME and HWRT validation data. The pipeline keeps training, validation, and held-out test data separate; a small local capture tuning set is reported separately and does not select the checkpoint.
+
+The [bundled manifest](Sources/CanvasKit/Resources/MathGlyphs-manifest.json) records **94.34% glyph-class accuracy** on that validation split and **82.09% resolved-label accuracy on 134 local tuning captures**. These measure isolated-symbol recognition, not complete equation accuracy or performance across all users. The manifest also retains the training configuration and source hashes for traceability.
+
+### How predictions become equations
+
+```text
+Handwritten strokes
+        ↓
+Segment into candidate symbol groups
+        ↓
+Build image, pen-path, and geometry inputs
+        ↓
+Core ML classifier → candidate symbol probabilities
+        ↓
+Geometry resolver + mathematical language context
+        ↓
+Equation structure and editable math
+```
+
+The classifier is one part of the recognition pipeline. `MathStrokeSegmenter` groups strokes into candidate symbols. `MathGlyphClassifier` runs the bundled model and converts its scores into label likelihoods; `SymbolResolver` uses the original ink size and position to help interpret ambiguous shapes. `MathLineDecoder` combines those likelihoods with a bundled n-gram math language model and confidence thresholds, allowing nearby symbols to inform a decision. Separate layout logic handles structures such as fractions and superscripts, and MathLive provides the equation editing interface.
+
+The exported model runs locally through Core ML, so math glyph inference requires no server request. Export checks compare Core ML outputs with PyTorch outputs to catch conversion differences. See [`train_v2.py`](scripts/glyphs/train_v2.py) for the training implementation and the [training guide](scripts/glyphs/TRAINING-v2.md) for the workflow. The guide includes earlier 59-class experiments; the bundled manifest describes the current 64-class model.
+
 ## Tests
 
 Run the CanvasKit test suite independently of the app:
